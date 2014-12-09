@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[__${1:init}__]]></content>
+    <tabTrigger>__</tabTrigger>
+    <scope>source.pythonAPI.cinema4D</scope>
+    <description>__magic__</description>
+</snippet>

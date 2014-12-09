@@ -1,0 +1,28 @@
+
+# [PackageDev] target_format: plist, ext: tmLanguage
+name: cinema4D (.res Description)
+scopeName: source.resfile.cinema4D
+fileTypes: [res]
+uuid: c827aaf9-5048-40f0-9003-8546a1de4525
+foldingStartMarker: \{
+foldingStopMarker: \}
+
+
+patterns:
+
+- {match: '\b(CONTAINER|GROUP)\b', name: keyword.control.resfile }
+- {match: '\b(NAME|INCLUDE|COLUMNS|MIN|MAX|STEP|ANIM|PARENTID|DEFAULT|MATEDCOLUMNS|SHOW|HIDE|CYCLE|NUM_FLAGS|INIT_STATE|(IMAGE_[0-9]*_(ON|OFF))|ACCEPT|REFUSE|COLOR|ALPHA|STATIC_TEXT|LINK_DEST|IS_LINK)\b', name: storage.modifier}
+- {match: '\b(OPEN|HIDDEN|OFF|ON|MIX|DUMMY|MINEX|MAXEX|TIME_CONTROL|DATE_CONTROL|TIME_NOW|COMPACT_MODE|NOCAMERA|DIRECTORY|SAVE|LINE)\b', name: constant.language.resfile}  
+
+- {match: '\b(LINK|VECTOR|REAL|LONG|BOOL|IN_EXCLUDE|DATETIME|FONT|PRIORITY|MATRIX|STRING|STATICTEXT|FILENAME|TEXTURE|BUTTON|BASETIME|DYNAMIC|SEPARATOR|SPLINE|COLOR|GRADIENT|HYPERLINK|SHADERLINK)\b', name: storage.type.elmt.resfile}
+- {match: '\b(REALSLIDER|REALSLIDERONLY|LONGSLIDER|MULTISTRING|SUBDESCRIPTION)\b', name: storage.type.custelmt.resfile}
+
+- {match: '\b(SHOWGRID_H|SHOWGRID_V|GRIDSIZE_H|GRIDSIZE_V|EDIT_H|EDIT_V|LABELS_H|LABELS_V|X_MIN|X_MAX|X_STEPS|Y_MIN|Y_MAX|Y_STEPS|HAS_PRESET_BTN|HAS_ROUND_SLIDER|MINSIZE_H|MINSIZE_V|X_MIN_TEXT|
+|Y_MIN_TEXT|Y_MAX_TEXT|X_TEXT|Y_TEXT)\b' , name: constant.language.spline.resfile}
+
+
+
+- {match: '\b(INPORT|OUTPORT|STATICPORT|NEEDCONNECTION|MULTIPLE|PORTONLY|CREATEPORT|MINPORTS|MAXPORTS|NOTMOVABLE|EDITPORT)\b', name: constant.language.graphview.resfile}
+
+- match: (UNIT? *REAL|UNIT? *PERCENT|UNIT? *DEGREE|UNIT? *METER)
+  name: storage.type.unit.resfile

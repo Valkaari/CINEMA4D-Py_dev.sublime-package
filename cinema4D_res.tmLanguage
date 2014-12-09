@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>res</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>\{</string>
+	<key>foldingStopMarker</key>
+	<string>\}</string>
+	<key>name</key>
+	<string>cinema4D (.res Description)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\b(CONTAINER|GROUP)\b</string>
+			<key>name</key>
+			<string>keyword.control.resfile</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(NAME|INCLUDE|COLUMNS|MIN|MAX|STEP|ANIM|PARENTID|DEFAULT|MATEDCOLUMNS|SHOW|HIDE|CYCLE|NUM_FLAGS|INIT_STATE|(IMAGE_[0-9]*_(ON|OFF))|ACCEPT|REFUSE|COLOR|ALPHA|STATIC_TEXT|LINK_DEST|IS_LINK)\b</string>
+			<key>name</key>
+			<string>storage.modifier</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(OPEN|HIDDEN|OFF|ON|MIX|DUMMY|MINEX|MAXEX|TIME_CONTROL|DATE_CONTROL|TIME_NOW|COMPACT_MODE|NOCAMERA|DIRECTORY|SAVE|LINE)\b</string>
+			<key>name</key>
+			<string>constant.language.resfile</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(LINK|VECTOR|REAL|LONG|BOOL|IN_EXCLUDE|DATETIME|FONT|PRIORITY|MATRIX|STRING|STATICTEXT|FILENAME|TEXTURE|BUTTON|BASETIME|DYNAMIC|SEPARATOR|SPLINE|COLOR|GRADIENT|HYPERLINK|SHADERLINK)\b</string>
+			<key>name</key>
+			<string>storage.type.elmt.resfile</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(REALSLIDER|REALSLIDERONLY|LONGSLIDER|MULTISTRING|SUBDESCRIPTION)\b</string>
+			<key>name</key>
+			<string>storage.type.custelmt.resfile</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(SHOWGRID_H|SHOWGRID_V|GRIDSIZE_H|GRIDSIZE_V|EDIT_H|EDIT_V|LABELS_H|LABELS_V|X_MIN|X_MAX|X_STEPS|Y_MIN|Y_MAX|Y_STEPS|HAS_PRESET_BTN|HAS_ROUND_SLIDER|MINSIZE_H|MINSIZE_V|X_MIN_TEXT| |Y_MIN_TEXT|Y_MAX_TEXT|X_TEXT|Y_TEXT)\b</string>
+			<key>name</key>
+			<string>constant.language.spline.resfile</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(INPORT|OUTPORT|STATICPORT|NEEDCONNECTION|MULTIPLE|PORTONLY|CREATEPORT|MINPORTS|MAXPORTS|NOTMOVABLE|EDITPORT)\b</string>
+			<key>name</key>
+			<string>constant.language.graphview.resfile</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(UNIT? *REAL|UNIT? *PERCENT|UNIT? *DEGREE|UNIT? *METER)</string>
+			<key>name</key>
+			<string>storage.type.unit.resfile</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.resfile.cinema4D</string>
+	<key>uuid</key>
+	<string>c827aaf9-5048-40f0-9003-8546a1de4525</string>
+</dict>
+</plist>

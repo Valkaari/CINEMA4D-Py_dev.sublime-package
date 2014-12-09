@@ -1,0 +1,8 @@
+<snippet>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.pythonAPI.cinema4D</scope>
+    <description>Function</description>
+
+    <content><![CDATA[def ${1:function}($2):
+	${0:pass}]]></content>
+</snippet>

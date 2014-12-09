@@ -1,0 +1,79 @@
+<snippet>
+	<content><![CDATA[
+"""
+$0
+Copyright: 
+Written for CINEMA 4D Rxx.xxx
+
+Modified Date: 
+"""
+
+import c4d
+from c4d import gui, plugins, utils, bitmaps, storage
+
+import collections, os
+
+#be sure to use a unique ID obtained from www.plugincafe.com
+# 1000001-1000010
+PLUGIN_ID = 1000001
+
+
+    
+   
+class $1(gui.GeDialog):
+    
+    def __init__(self):
+        #self.AddGadget(c4d.DIALOG_NOMENUBAR, 0)#disable menubar
+        pass
+    
+    def CreateLayout(self):
+        
+        #MY_DIALOG corresponds to a MY_DIALOG.res file in the res/dialogs directory
+        return self.LoadDialogResource(MY_DIALOG)
+    
+    def InitValues(self):
+    
+        return True
+
+    def Command(self, id, msg):
+
+    	return True
+
+    def Message(self, msg, result):
+
+    	return c4d.gui.GeDialog.Message(self, msg, result)
+    
+
+class $0(c4d.plugins.CommandData):
+    dialog = None
+
+    def Execute(self, doc):
+        """Just create the dialog when the user clicked on the entry
+        in the plugins menu to open it."""
+        if self.dialog is None:
+           self.dialog = $1()
+
+        return self.dialog.Open(dlgtype=c4d.DLG_TYPE_ASYNC, pluginid=PLUGIN_ID, defaulth=400, defaultw=400)
+
+    def RestoreLayout(self, sec_ref):
+        """Same for this method. Just allocate it when the dialog
+        is needed"""
+        if self.dialog is None:
+           self.dialog = $1()
+
+        return self.dialog.Restore(pluginid=PLUGIN_ID, secret=sec_ref)
+
+if __name__ == "__main__":
+     bmp = bitmaps.BaseBitmap()
+     dir, f = os.path.split(__file__)
+     fn = os.path.join(dir, "res", "icon_Name.tif")
+     bmp.InitWith(fn)
+     c4d.plugins.RegisterCommandPlugin(id=PLUGIN_ID, str="plugin_name",
+                                      help="show the help message",info=0,
+                                        dat=$0(), icon=bmp)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cinemacommand</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.pythonAPI.cinema4D</scope>
+</snippet>

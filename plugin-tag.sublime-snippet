@@ -1,0 +1,50 @@
+<snippet>
+	<content><![CDATA[
+
+"""
+Plugin name : $0
+Copyright: 
+Written for CINEMA 4D R
+
+Modified Date: 
+"""
+
+import os
+import c4d
+from c4d import bitmaps, plugins, utils
+
+# Be sure to use a unique ID obtained from www.plugincafe.com
+PLUGIN_ID = 1000001
+
+
+class $0(plugins.TagData):
+    """$0"""
+    
+    def Init(self, node):
+                
+        return True
+    
+    def Execute(self, tag, doc, op, bt, priority, flags):
+        
+        
+        return c4d.EXECUTIONRESULT_OK
+
+
+if __name__ == "__main__":
+    bmp = bitmaps.BaseBitmap()
+    dir, file = os.path.split(__file__)
+    fn = os.path.join(dir, "res", "tpy$0.tif")
+    bmp.InitWith(fn)
+    plugins.RegisterTagPlugin(id=PLUGIN_ID, str="Py - $0",
+                              info=c4d.TAG_MULTIPLE|c4d.TAG_EXPRESSION|c4d.TAG_VISIBLE, g=$0,
+                              description="Tpy$0", icon=bmp)
+
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cinematag</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.pythonAPI.cinema4D</scope>
+
+</snippet>
