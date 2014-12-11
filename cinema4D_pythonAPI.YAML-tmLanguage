@@ -20,16 +20,7 @@ patterns:
   endCaptures:
      '1': {name: constant.numeric.pythonAPI.cinema4D}
 
-- begin: (\bc4d\b)(\.)
-  beginCaptures:
-     '1': {name: keyword.module.pythonAPI.cinema4D}
-     '2': {name: ponctuation.pythonAPI.cinema4D}
-  end: \b()\b
-  endCaptures:
-     '1': {name: class.c4d.pythonAPI.cinema4D}
 
-
-  
 
 
 - {include: "source.python"}
