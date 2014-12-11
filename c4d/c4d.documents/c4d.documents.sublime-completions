@@ -1,0 +1,27 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.documents.GetActiveDocument()", "contents" : "GetActiveDocument()"},
+				{"trigger": "c4d.documents.GetFirstDocument()", "contents" : "GetFirstDocument()"},
+				{"trigger": "c4d.documents.SetActiveDocument(doc)", "contents" : "SetActiveDocument(${1:doc})"},
+				{"trigger": "c4d.documents.SaveDocument(doc, name, saveflags, format)", "contents" : "SaveDocument(${1:doc}, ${2:name}, ${3:saveflags}, ${4:format})"},
+				{"trigger": "c4d.documents.RenderDocument(doc, rdata, bmp[, renderflags=0, th=None])", "contents" : "RenderDocument(${1:doc}, ${2:rdata}, ${3:bmp} ${4:[, renderflags=5:0, th=None]})"},
+				{"trigger": "c4d.documents.MergeDocument(doc, name, loadflags[, thread])", "contents" : "MergeDocument(${1:doc}, ${2:name}, ${3:loadflags} ${4:[, thread]})"},
+				{"trigger": "c4d.documents.LoadFile(name)", "contents" : "LoadFile(${1:name})"},
+				{"trigger": "c4d.documents.KillDocument(doc)", "contents" : "KillDocument(${1:doc})"},
+				{"trigger": "c4d.documents.InsertBaseDocument(doc)", "contents" : "InsertBaseDocument(${1:doc})"},
+				{"trigger": "c4d.documents.LoadDocument(name, loadflags[, thread])", "contents" : "LoadDocument(${1:name}, ${2:loadflags} ${3:[, thread]})"},
+				{"trigger": "c4d.documents.CloseAllDocuments()", "contents" : "CloseAllDocuments()"},
+				{"trigger": "c4d.documents.SetDocumentTime(doc, time)", "contents" : "SetDocumentTime(${1:doc}, ${2:time})"},
+				{"trigger": "c4d.documents.RunAnimation(doc, stop[, forward])", "contents" : "RunAnimation(${1:doc}, ${2:stop} ${3:[, forward]})"},
+				{"trigger": "c4d.documents.InteractiveModeling_Restart(doc)", "contents" : "InteractiveModeling_Restart(${1:doc})"},
+				{"trigger": "c4d.documents.IsolateObjects(doc, t_objects)", "contents" : "IsolateObjects(${1:doc}, ${2:t_objects})"},
+				{"trigger": "c4d.documents.StopExternalRenderer()", "contents" : "StopExternalRenderer()"},
+				{"trigger": "c4d.documents.GetBatchRender()", "contents" : "GetBatchRender()"},
+				{"trigger": "c4d.documents.GetAllAssets(doc, allowDialogs, lastPath)", "contents" : "GetAllAssets(${1:doc}, ${2:allowDialogs}, ${3:lastPath})"},
+				{"trigger": "c4d.documents.SaveProject(doc, flags, targetPath, assets, missingAssets)", "contents" : "SaveProject(${1:doc}, ${2:flags}, ${3:targetPath}, ${4:assets}, ${5:missingAssets})"},
+				{"trigger": "c4d.documents.GetFirstMarker(doc)", "contents" : "GetFirstMarker(${1:doc})"},
+				{"trigger": "c4d.documents.AddMarker(doc, pPred, time, name)", "contents" : "AddMarker(${1:doc}, ${2:pPred}, ${3:time}, ${4:name})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

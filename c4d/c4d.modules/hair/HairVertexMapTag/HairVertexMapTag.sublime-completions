@@ -1,0 +1,11 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.hair.HairVertexMapTag", "contents" : "HairVertexMapTag"},
+				{"trigger": "HairVertexMapTag.__init__()", "contents" : "__init__()"},
+				{"trigger": "HairVertexMapTag.GetPointCount()", "contents" : "GetPointCount()"},
+				{"trigger": "HairVertexMapTag.GetCount()", "contents" : "GetCount()"},
+				{"trigger": "HairVertexMapTag.GetSegments()", "contents" : "GetSegments()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

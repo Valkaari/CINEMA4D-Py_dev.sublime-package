@@ -1,0 +1,10 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.BaseTag", "contents" : "BaseTag"},
+				{"trigger": "BaseTag.__init__(type)", "contents" : "__init__(${1:type})"},
+				{"trigger": "BaseTag.GetObject()", "contents" : "GetObject()"},
+				{"trigger": "BaseTag.GetOrigin()", "contents" : "GetOrigin()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

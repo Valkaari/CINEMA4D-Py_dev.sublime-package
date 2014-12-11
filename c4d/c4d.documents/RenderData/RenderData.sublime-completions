@@ -1,0 +1,13 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.documents.RenderData", "contents" : "RenderData"},
+				{"trigger": "RenderData.__init__()", "contents" : "__init__()"},
+				{"trigger": "RenderData.GetFirstVideoPost()", "contents" : "GetFirstVideoPost()"},
+				{"trigger": "RenderData.GetFirstMultipass()", "contents" : "GetFirstMultipass()"},
+				{"trigger": "RenderData.InsertVideoPost(pvp[, pred=None])", "contents" : "InsertVideoPost(${1:pvp} ${2:[, pred=None]})"},
+				{"trigger": "RenderData.InsertVideoPostLast(pvp)", "contents" : "InsertVideoPostLast(${1:pvp})"},
+				{"trigger": "RenderData.InsertMultipass(obj[, pred=None])", "contents" : "InsertMultipass(${1:obj} ${2:[, pred=None]})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

@@ -1,0 +1,9 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.gui.GradientCustomGui", "contents" : "GradientCustomGui"},
+				{"trigger": "GradientCustomGui.SetGradient(data)", "contents" : "SetGradient(${1:data})"},
+				{"trigger": "GradientCustomGui.GetGradient()", "contents" : "GetGradient()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

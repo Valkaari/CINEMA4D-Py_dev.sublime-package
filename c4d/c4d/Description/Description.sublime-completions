@@ -1,0 +1,8 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.Description", "contents" : "Description"},
+				{"trigger": "Description.__iter__(bc, id, groupid)", "contents" : "__iter__(${1:bc}, ${2:id}, ${3:groupid})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

@@ -1,0 +1,28 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.hair.HairGuides", "contents" : "HairGuides"},
+				{"trigger": "HairGuides.GetCount()", "contents" : "GetCount()"},
+				{"trigger": "HairGuides.GetSegmentCount()", "contents" : "GetSegmentCount()"},
+				{"trigger": "HairGuides.GetPointCount()", "contents" : "GetPointCount()"},
+				{"trigger": "HairGuides.GetGuidePointCount()", "contents" : "GetGuidePointCount()"},
+				{"trigger": "HairGuides.GetPoints()", "contents" : "GetPoints()"},
+				{"trigger": "HairGuides.SetPoint(id, p)", "contents" : "SetPoint(${1:id}, ${2:p})"},
+				{"trigger": "HairGuides.GetMg()", "contents" : "GetMg()"},
+				{"trigger": "HairGuides.SetMg(mg)", "contents" : "SetMg(${1:mg})"},
+				{"trigger": "HairGuides.GetObject()", "contents" : "GetObject()"},
+				{"trigger": "HairGuides.GetSelected(mode)", "contents" : "GetSelected(${1:mode})"},
+				{"trigger": "HairGuides.SetSelected(mode, select)", "contents" : "SetSelected(${1:mode}, ${2:select})"},
+				{"trigger": "HairGuides.ConvertSelection(from_mode, to_mode, from_select, to_select)", "contents" : "ConvertSelection(${1:from_mode}, ${2:to_mode}, ${3:from_select}, ${4:to_select})"},
+				{"trigger": "HairGuides.CopyFrom(src)", "contents" : "CopyFrom(${1:src})"},
+				{"trigger": "HairGuides.GetTangent(guide, segment, t)", "contents" : "GetTangent(${1:guide}, ${2:segment}, ${3:t})"},
+				{"trigger": "HairGuides.CreateSpline()", "contents" : "CreateSpline()"},
+				{"trigger": "HairGuides.ToLocal()", "contents" : "ToLocal()"},
+				{"trigger": "HairGuides.ToWorld()", "contents" : "ToWorld()"},
+				{"trigger": "HairGuides.GetRootUV(index)", "contents" : "GetRootUV(${1:index})"},
+				{"trigger": "HairGuides.GetTransformMatrix(index)", "contents" : "GetTransformMatrix(${1:index})"},
+				{"trigger": "HairGuides.GetFlags()", "contents" : "GetFlags()"},
+				{"trigger": "HairGuides.SetFlags(flags)", "contents" : "SetFlags(${1:flags})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

@@ -1,0 +1,10 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.FontData", "contents" : "FontData"},
+				{"trigger": "FontData.__init__([v])", "contents" : "__init__( ${1:[v]})"},
+				{"trigger": "FontData.SetFont(bc)", "contents" : "SetFont(${1:bc})"},
+				{"trigger": "FontData.GetFont()", "contents" : "GetFont()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

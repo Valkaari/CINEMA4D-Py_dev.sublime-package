@@ -1,0 +1,26 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.sculpting.SculptLayer", "contents" : "SculptLayer"},
+				{"trigger": "SculptLayer.GetFirstSculptLayer()", "contents" : "GetFirstSculptLayer()"},
+				{"trigger": "SculptLayer.GetCurrentSculptLayer()", "contents" : "GetCurrentSculptLayer()"},
+				{"trigger": "SculptLayer.GetPointCount()", "contents" : "GetPointCount()"},
+				{"trigger": "SculptLayer.GetOffset(index)", "contents" : "GetOffset(${1:index})"},
+				{"trigger": "SculptLayer.SetOffset(index, offset)", "contents" : "SetOffset(${1:index}, ${2:offset})"},
+				{"trigger": "SculptLayer.AddOffset(index, offset)", "contents" : "AddOffset(${1:index}, ${2:offset})"},
+				{"trigger": "SculptLayer.GetMask(index)", "contents" : "GetMask(${1:index})"},
+				{"trigger": "SculptLayer.SetMask(index, mask)", "contents" : "SetMask(${1:index}, ${2:mask})"},
+				{"trigger": "SculptLayer.AddToMask(index, mask)", "contents" : "AddToMask(${1:index}, ${2:mask})"},
+				{"trigger": "SculptLayer.HasMask()", "contents" : "HasMask()"},
+				{"trigger": "SculptLayer.ClearMask()", "contents" : "ClearMask()"},
+				{"trigger": "SculptLayer.ClearLayer()", "contents" : "ClearLayer()"},
+				{"trigger": "SculptLayer.InitializeAllPointData()", "contents" : "InitializeAllPointData()"},
+				{"trigger": "SculptLayer.InitializeAllMaskData()", "contents" : "InitializeAllMaskData()"},
+				{"trigger": "SculptLayer.TouchPointForUndo(index)", "contents" : "TouchPointForUndo(${1:index})"},
+				{"trigger": "SculptLayer.TouchMaskForUndo()", "contents" : "TouchMaskForUndo()"},
+				{"trigger": "SculptLayer.IsBaseLayer()", "contents" : "IsBaseLayer()"},
+				{"trigger": "SculptLayer.IsMaskEnabled()", "contents" : "IsMaskEnabled()"},
+				{"trigger": "SculptLayer.SetMaskEnabled(state)", "contents" : "SetMaskEnabled(${1:state})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

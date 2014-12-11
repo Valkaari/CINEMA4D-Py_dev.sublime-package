@@ -1,0 +1,20 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.graphview.GvNodeMaster", "contents" : "GvNodeMaster"},
+				{"trigger": "GvNodeMaster.__init__(host)", "contents" : "__init__(${1:host})"},
+				{"trigger": "GvNodeMaster.AllocNode(id)", "contents" : "AllocNode(${1:id})"},
+				{"trigger": "GvNodeMaster.CreateNode(parent, id[, insert=None][, x=-1][, y=-1])", "contents" : "CreateNode(${1:parent}, ${2:id} ${3:[, insert=None]} ${4:[, x=-1]} ${5:[, y=-1]})"},
+				{"trigger": "GvNodeMaster.GetRoot()", "contents" : "GetRoot()"},
+				{"trigger": "GvNodeMaster.GetOwner()", "contents" : "GetOwner()"},
+				{"trigger": "GvNodeMaster.InsertFirst(parent, node)", "contents" : "InsertFirst(${1:parent}, ${2:node})"},
+				{"trigger": "GvNodeMaster.InsertLast(parent, node)", "contents" : "InsertLast(${1:parent}, ${2:node})"},
+				{"trigger": "GvNodeMaster.SetHierarchy(insert, node[, mode=GV_INSERT_AFTER])", "contents" : "SetHierarchy(${1:insert}, ${2:node} ${3:[, mode=GV_INSERT_AFTER]})"},
+				{"trigger": "GvNodeMaster.IsEnabled()", "contents" : "IsEnabled()"},
+				{"trigger": "GvNodeMaster.GetPrefs()", "contents" : "GetPrefs()"},
+				{"trigger": "GvNodeMaster.SetPrefs(bc)", "contents" : "SetPrefs(${1:bc})"},
+				{"trigger": "GvNodeMaster.AddUndo()", "contents" : "AddUndo()"},
+				{"trigger": "GvNodeMaster.Execute()", "contents" : "Execute()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

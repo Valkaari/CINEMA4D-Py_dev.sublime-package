@@ -1,0 +1,25 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.CTrack", "contents" : "CTrack"},
+				{"trigger": "CTrack.__init__(bl, id)", "contents" : "__init__(${1:bl}, ${2:id})"},
+				{"trigger": "CTrack.GetDescriptionID()", "contents" : "GetDescriptionID()"},
+				{"trigger": "CTrack.SetDescriptionID(object, id)", "contents" : "SetDescriptionID(${1:object}, ${2:id})"},
+				{"trigger": "CTrack.GetCurve()", "contents" : "GetCurve()"},
+				{"trigger": "CTrack.GetTrackCategory()", "contents" : "GetTrackCategory()"},
+				{"trigger": "CTrack.GetObject()", "contents" : "GetObject()"},
+				{"trigger": "CTrack.GetBefore()", "contents" : "GetBefore()"},
+				{"trigger": "CTrack.GetAfter()", "contents" : "GetAfter()"},
+				{"trigger": "CTrack.SetBefore(type)", "contents" : "SetBefore(${1:type})"},
+				{"trigger": "CTrack.SetAfter(type)", "contents" : "SetAfter(${1:type})"},
+				{"trigger": "CTrack.FlushData()", "contents" : "FlushData()"},
+				{"trigger": "CTrack.GetValue(doc, time, fps)", "contents" : "GetValue(${1:doc}, ${2:time}, ${3:fps})"},
+				{"trigger": "CTrack.Remap()", "contents" : "Remap()"},
+				{"trigger": "CTrack.FillKey(doc, bl, key)", "contents" : "FillKey(${1:doc}, ${2:bl}, ${3:key})"},
+				{"trigger": "CTrack.GetHeight()", "contents" : "GetHeight()"},
+				{"trigger": "CTrack.GetUnit()", "contents" : "GetUnit()"},
+				{"trigger": "CTrack.GetTLHeight(id)", "contents" : "GetTLHeight(${1:id})"},
+				{"trigger": "CTrack.SetTLHeight(id, size)", "contents" : "SetTLHeight(${1:id}, ${2:size})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

@@ -1,0 +1,8 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.bodypaint.PaintMaterial", "contents" : "PaintMaterial"},
+				{"trigger": "PaintMaterial.EnableMaterial(doc, on[, suppressevent=False][, domaterialundo=True])", "contents" : "EnableMaterial(${1:doc}, ${2:on} ${3:[, suppressevent=False]} ${4:[, domaterialundo=True]})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

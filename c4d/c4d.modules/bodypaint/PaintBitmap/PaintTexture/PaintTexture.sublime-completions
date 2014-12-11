@@ -1,0 +1,22 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.bodypaint.PaintTexture", "contents" : "PaintTexture"},
+				{"trigger": "PaintTexture.GetFirstLayer()", "contents" : "GetFirstLayer()"},
+				{"trigger": "PaintTexture.GetLastLayer()", "contents" : "GetLastLayer()"},
+				{"trigger": "PaintTexture.AddLayerBmp([insertafter=None][, layerset=None][, mode=COLORMODE_ARGB][, useundo=True][, activate=True])", "contents" : "AddLayerBmp( ${1:[insertafter=None]} ${2:[, layerset=None]} ${3:[, mode=COLORMODE_ARGB]} ${4:[, useundo=True]} ${5:[, activate=True]})"},
+				{"trigger": "PaintTexture.AddLayerFolder([insertafter=None][, insertunder=None][, useundo=True][, activate=True])", "contents" : "AddLayerFolder( ${1:[insertafter=None]} ${2:[, insertunder=None]} ${3:[, useundo=True]} ${4:[, activate=True]})"},
+				{"trigger": "PaintTexture.SetActiveLayer(layer, activatetexture[, show=True])", "contents" : "SetActiveLayer(${1:layer}, ${2:activatetexture} ${3:[, show=True]})"},
+				{"trigger": "PaintTexture.GetActive()", "contents" : "GetActive()"},
+				{"trigger": "PaintTexture.GetLinkLayers(addfolders)", "contents" : "GetLinkLayers(${1:addfolders})"},
+				{"trigger": "PaintTexture.SetColorMode(newcolormode, doundo)", "contents" : "SetColorMode(${1:newcolormode}, ${2:doundo})"},
+				{"trigger": "PaintTexture.GetFilename()", "contents" : "GetFilename()"},
+				{"trigger": "PaintTexture.GetLayerCount()", "contents" : "GetLayerCount()"},
+				{"trigger": "PaintTexture.GetAlphaCount()", "contents" : "GetAlphaCount()"},
+				{"trigger": "PaintTexture.CreateNewTexture(path, settings)", "contents" : "CreateNewTexture(${1:path}, ${2:settings})"},
+				{"trigger": "PaintTexture.GetTextureDefaults(channel)", "contents" : "GetTextureDefaults(${1:channel})"},
+				{"trigger": "PaintTexture.SetSelected_Texture(bmp, preferred)", "contents" : "SetSelected_Texture(${1:bmp}, ${2:preferred})"},
+				{"trigger": "PaintTexture.GetSelectedTexture()", "contents" : "GetSelectedTexture()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

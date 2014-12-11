@@ -1,0 +1,17 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.render.InitRenderStruct", "contents" : "InitRenderStruct"},
+				{"trigger": "InitRenderStruct.version", "contents" : "version"},
+				{"trigger": "InitRenderStruct.time", "contents" : "time"},
+				{"trigger": "InitRenderStruct.fps", "contents" : "fps"},
+				{"trigger": "InitRenderStruct.docpath", "contents" : "docpath"},
+				{"trigger": "InitRenderStruct.vd", "contents" : "vd"},
+				{"trigger": "InitRenderStruct.doc", "contents" : "doc"},
+				{"trigger": "InitRenderStruct.thread", "contents" : "thread"},
+				{"trigger": "InitRenderStruct.flags", "contents" : "flags"},
+				{"trigger": "InitRenderStruct.linear_workflow", "contents" : "linear_workflow"},
+				{"trigger": "InitRenderStruct.document_colorprofile", "contents" : "document_colorprofile"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

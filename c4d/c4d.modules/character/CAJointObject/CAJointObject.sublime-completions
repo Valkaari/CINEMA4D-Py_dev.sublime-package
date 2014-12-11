@@ -1,0 +1,10 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.character.CAJointObject", "contents" : "CAJointObject"},
+				{"trigger": "CAJointObject.__init__()", "contents" : "__init__()"},
+				{"trigger": "CAJointObject.GetBone()", "contents" : "GetBone()"},
+				{"trigger": "CAJointObject.GetWeightTag()", "contents" : "GetWeightTag()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

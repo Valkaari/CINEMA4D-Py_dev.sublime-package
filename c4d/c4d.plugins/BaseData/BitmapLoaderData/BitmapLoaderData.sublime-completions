@@ -1,0 +1,11 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.plugins.BitmapLoaderData", "contents" : "BitmapLoaderData"},
+				{"trigger": "BitmapLoaderData.Identify(self, name, probe, size)", "contents" : "Identify(${1:self}, ${2:name}, ${3:probe}, ${4:size})"},
+				{"trigger": "BitmapLoaderData.Load(self, name, bm, frame)", "contents" : "Load(${1:self}, ${2:name}, ${3:bm}, ${4:frame})"},
+				{"trigger": "BitmapLoaderData.GetSaver(self)", "contents" : "GetSaver(${1:self})"},
+				{"trigger": "BitmapLoaderData.GetInformation(self, name)", "contents" : "GetInformation(${1:self}, ${2:name})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

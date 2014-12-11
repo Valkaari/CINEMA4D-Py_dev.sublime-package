@@ -1,0 +1,12 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.bitmaps.MovieLoader", "contents" : "MovieLoader"},
+				{"trigger": "MovieLoader.__init__()", "contents" : "__init__()"},
+				{"trigger": "MovieLoader.Open(fn)", "contents" : "Open(${1:fn})"},
+				{"trigger": "MovieLoader.Close()", "contents" : "Close()"},
+				{"trigger": "MovieLoader.GetInfo()", "contents" : "GetInfo()"},
+				{"trigger": "MovieLoader.Read(new_frame_idx)", "contents" : "Read(${1:new_frame_idx})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

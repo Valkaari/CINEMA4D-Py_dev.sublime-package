@@ -1,0 +1,8 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.plugins.PriorityList", "contents" : "PriorityList"},
+				{"trigger": "PriorityList.Add(node, priority[, flags])", "contents" : "Add(${1:node}, ${2:priority} ${3:[, flags]})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

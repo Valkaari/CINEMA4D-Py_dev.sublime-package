@@ -1,0 +1,12 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.gui.HtmlViewerCustomGui", "contents" : "HtmlViewerCustomGui"},
+				{"trigger": "HtmlViewerCustomGui.SetText(url)", "contents" : "SetText(${1:url})"},
+				{"trigger": "HtmlViewerCustomGui.SetUrl(url, encoding)", "contents" : "SetUrl(${1:url}, ${2:encoding})"},
+				{"trigger": "HtmlViewerCustomGui.SetURLCallback(callback[, user_data])", "contents" : "SetURLCallback(${1:callback} ${2:[, user_data]})"},
+				{"trigger": "HtmlViewerCustomGui.DoAction(action)", "contents" : "DoAction(${1:action})"},
+				{"trigger": "HtmlViewerCustomGui.GetTextArea(id)", "contents" : "GetTextArea(${1:id})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

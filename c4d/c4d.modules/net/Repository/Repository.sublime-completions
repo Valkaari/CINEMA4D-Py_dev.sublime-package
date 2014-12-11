@@ -1,0 +1,12 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.net.Repository", "contents" : "Repository"},
+				{"trigger": "Repository.GetRepositoryPath()", "contents" : "GetRepositoryPath()"},
+				{"trigger": "Repository.GetJobsPath(server)", "contents" : "GetJobsPath(${1:server})"},
+				{"trigger": "Repository.SetRepositoryPath(repositoryPath)", "contents" : "SetRepositoryPath(${1:repositoryPath})"},
+				{"trigger": "Repository.ConvertRelative2Absolute(job)", "contents" : "ConvertRelative2Absolute(${1:job})"},
+				{"trigger": "Repository.ConvertAbsolute2RelativePath(absolutePath, server)", "contents" : "ConvertAbsolute2RelativePath(${1:absolutePath}, ${2:server})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

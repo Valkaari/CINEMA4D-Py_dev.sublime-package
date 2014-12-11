@@ -1,0 +1,10 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.gui.BitmapButtonCustomGui", "contents" : "BitmapButtonCustomGui"},
+				{"trigger": "BitmapButtonCustomGui.SetImage(obj[, copybmp=True, secondstate=False])", "contents" : "SetImage(${1:obj} ${2:[, copybmp=3:True, secondstate=False]})"},
+				{"trigger": "BitmapButtonCustomGui.SetToggleState(set)", "contents" : "SetToggleState(${1:set})"},
+				{"trigger": "BitmapButtonCustomGui.SetCommandDragId(cmdid)", "contents" : "SetCommandDragId(${1:cmdid})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

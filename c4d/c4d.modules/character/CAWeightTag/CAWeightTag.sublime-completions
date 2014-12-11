@@ -1,0 +1,24 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.character.CAWeightTag", "contents" : "CAWeightTag"},
+				{"trigger": "CAWeightTag.__init__()", "contents" : "__init__()"},
+				{"trigger": "CAWeightTag.GetJoint(index[, doc=None])", "contents" : "GetJoint(${1:index} ${2:[, doc=None]})"},
+				{"trigger": "CAWeightTag.GetJointCount()", "contents" : "GetJointCount()"},
+				{"trigger": "CAWeightTag.FindJoint(op[, doc=None])", "contents" : "FindJoint(${1:op} ${2:[, doc=None]})"},
+				{"trigger": "CAWeightTag.GetJointRestState(index)", "contents" : "GetJointRestState(${1:index})"},
+				{"trigger": "CAWeightTag.SetJointRestState(index, m_bMg, m_bMi, m_oMg, m_oMi, m_Len)", "contents" : "SetJointRestState(${1:index}, ${2:m_bMg}, ${3:m_bMi}, ${4:m_oMg}, ${5:m_oMi}, ${6:m_Len})"},
+				{"trigger": "CAWeightTag.GetIndexWeight(index, windex)", "contents" : "GetIndexWeight(${1:index}, ${2:windex})"},
+				{"trigger": "CAWeightTag.GetWeight(index, pntindex)", "contents" : "GetWeight(${1:index}, ${2:pntindex})"},
+				{"trigger": "CAWeightTag.SetWeight(index, pntindex, weight)", "contents" : "SetWeight(${1:index}, ${2:pntindex}, ${3:weight})"},
+				{"trigger": "CAWeightTag.GetWeightDirty()", "contents" : "GetWeightDirty()"},
+				{"trigger": "CAWeightTag.WeightDirty()", "contents" : "WeightDirty()"},
+				{"trigger": "CAWeightTag.GetGeomMg()", "contents" : "GetGeomMg()"},
+				{"trigger": "CAWeightTag.SetGeomMg(mg)", "contents" : "SetGeomMg(${1:mg})"},
+				{"trigger": "CAWeightTag.AddJoint(op)", "contents" : "AddJoint(${1:op})"},
+				{"trigger": "CAWeightTag.RemoveJoint(op)", "contents" : "RemoveJoint(${1:op})"},
+				{"trigger": "CAWeightTag.CalculateBoneStates(index)", "contents" : "CalculateBoneStates(${1:index})"},
+				{"trigger": "CAWeightTag.TransferWeightMap(doc, dst, sindex, dindex, offset, cnt)", "contents" : "TransferWeightMap(${1:doc}, ${2:dst}, ${3:sindex}, ${4:dindex}, ${5:offset}, ${6:cnt})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

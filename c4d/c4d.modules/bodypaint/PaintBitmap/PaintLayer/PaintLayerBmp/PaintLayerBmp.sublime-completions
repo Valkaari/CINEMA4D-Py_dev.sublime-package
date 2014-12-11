@@ -1,0 +1,12 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.bodypaint.PaintLayerBmp", "contents" : "PaintLayerBmp"},
+				{"trigger": "PaintLayerBmp.ImportFromBaseBitmap(bmp, usealpha)", "contents" : "ImportFromBaseBitmap(${1:bmp}, ${2:usealpha})"},
+				{"trigger": "PaintLayerBmp.ImportFromBaseBitmapAlpha(bmp, channel)", "contents" : "ImportFromBaseBitmapAlpha(${1:bmp}, ${2:channel})"},
+				{"trigger": "PaintLayerBmp.GetBoundingBox()", "contents" : "GetBoundingBox()"},
+				{"trigger": "PaintLayerBmp.GetPixelCnt(x, y, cnt, buffer, dstmode, flags)", "contents" : "GetPixelCnt(${1:x}, ${2:y}, ${3:cnt}, ${4:buffer}, ${5:dstmode}, ${6:flags})"},
+				{"trigger": "PaintLayerBmp.SetPixelCnt(x, y, cnt, buffer, inc, srcmode, flags)", "contents" : "SetPixelCnt(${1:x}, ${2:y}, ${3:cnt}, ${4:buffer}, ${5:inc}, ${6:srcmode}, ${7:flags})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

@@ -1,0 +1,15 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.character.CAMorph", "contents" : "CAMorph"},
+				{"trigger": "CAMorph.GetName()", "contents" : "GetName()"},
+				{"trigger": "CAMorph.SetName(name)", "contents" : "SetName(${1:name})"},
+				{"trigger": "CAMorph.GetID()", "contents" : "GetID()"},
+				{"trigger": "CAMorph.CopyFrom(src, trn, flags)", "contents" : "CopyFrom(${1:src}, ${2:trn}, ${3:flags})"},
+				{"trigger": "CAMorph.GetFirst()", "contents" : "GetFirst()"},
+				{"trigger": "CAMorph.SetMode(doc, tag, flags, mode)", "contents" : "SetMode(${1:doc}, ${2:tag}, ${3:flags}, ${4:mode})"},
+				{"trigger": "CAMorph.Store(doc, tag, flags)", "contents" : "Store(${1:doc}, ${2:tag}, ${3:flags})"},
+				{"trigger": "CAMorph.Apply(doc, tag, flags)", "contents" : "Apply(${1:doc}, ${2:tag}, ${3:flags})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

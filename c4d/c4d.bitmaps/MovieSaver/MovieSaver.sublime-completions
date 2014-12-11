@@ -1,0 +1,12 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.bitmaps.MovieSaver", "contents" : "MovieSaver"},
+				{"trigger": "MovieSaver.__init__()", "contents" : "__init__()"},
+				{"trigger": "MovieSaver.Open(name, bm, fps, format, data, savebits)", "contents" : "Open(${1:name}, ${2:bm}, ${3:fps}, ${4:format}, ${5:data}, ${6:savebits})"},
+				{"trigger": "MovieSaver.Close()", "contents" : "Close()"},
+				{"trigger": "MovieSaver.Write(bm)", "contents" : "Write(${1:bm})"},
+				{"trigger": "MovieSaver.Choose(format, bc)", "contents" : "Choose(${1:format}, ${2:bc})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

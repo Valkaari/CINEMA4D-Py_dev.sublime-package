@@ -1,0 +1,8 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.sculpting.MakeSculptObject(obj, doc)", "contents" : "MakeSculptObject(${1:obj}, ${2:doc})"},
+				{"trigger": "c4d.modules.sculpting.GetSelectedSculptObject(doc)", "contents" : "GetSelectedSculptObject(${1:doc})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

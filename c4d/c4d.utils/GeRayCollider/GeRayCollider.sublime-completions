@@ -1,0 +1,13 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.utils.GeRayCollider", "contents" : "GeRayCollider"},
+				{"trigger": "GeRayCollider.__init__()", "contents" : "__init__()"},
+				{"trigger": "GeRayCollider.Init(goal[, force=False])", "contents" : "Init(${1:goal} ${2:[, force=False]})"},
+				{"trigger": "GeRayCollider.Intersect(ray_p, ray_dir, length[, only_test=False])", "contents" : "Intersect(${1:ray_p}, ${2:ray_dir}, ${3:length} ${4:[, only_test=False]})"},
+				{"trigger": "GeRayCollider.GetIntersectionCount()", "contents" : "GetIntersectionCount()"},
+				{"trigger": "GeRayCollider.GetIntersection(number)", "contents" : "GetIntersection(${1:number})"},
+				{"trigger": "GeRayCollider.GetNearestIntersection()", "contents" : "GetNearestIntersection()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

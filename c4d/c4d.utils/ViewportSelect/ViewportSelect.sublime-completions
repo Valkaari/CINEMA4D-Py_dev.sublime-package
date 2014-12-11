@@ -1,0 +1,22 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.utils.ViewportSelect", "contents" : "ViewportSelect"},
+				{"trigger": "ViewportSelect.__init__()", "contents" : "__init__()"},
+				{"trigger": "ViewportSelect.Init(w, h, bd, ops, mode, onlyvisible, flags)", "contents" : "Init(${1:w}, ${2:h}, ${3:bd}, ${4:ops}, ${5:mode}, ${6:onlyvisible}, ${7:flags})"},
+				{"trigger": "ViewportSelect.GetPixelInfoPoint(x, y)", "contents" : "GetPixelInfoPoint(${1:x}, ${2:y})"},
+				{"trigger": "ViewportSelect.GetPixelInfoPolygon(x, y)", "contents" : "GetPixelInfoPolygon(${1:x}, ${2:y})"},
+				{"trigger": "ViewportSelect.GetPixelInfoEdge(x, y)", "contents" : "GetPixelInfoEdge(${1:x}, ${2:y})"},
+				{"trigger": "ViewportSelect.GetNearestPoint(op, x, y[, maxrad=MAXLONGl][, onlyselected=False][, ignorelist=None][, ignorecnt=0])", "contents" : "GetNearestPoint(${1:op}, ${2:x}, ${3:y} ${4:[, maxrad=MAXLONGl]} ${5:[, onlyselected=False]} ${6:[, ignorelist=None]} ${7:[, ignorecnt=0]})"},
+				{"trigger": "ViewportSelect.GetNearestPolygon(op, x, y[, maxrad=MAXLONGl][, onlyselected=False][, ignorelist=None][, ignorecnt=0])", "contents" : "GetNearestPolygon(${1:op}, ${2:x}, ${3:y} ${4:[, maxrad=MAXLONGl]} ${5:[, onlyselected=False]} ${6:[, ignorelist=None]} ${7:[, ignorecnt=0]})"},
+				{"trigger": "ViewportSelect.GetNearestEdge(op, x, y[, maxrad=MAXLONGl][, onlyselected=False][, ignorelist=None][, ignorecnt=0])", "contents" : "GetNearestEdge(${1:op}, ${2:x}, ${3:y} ${4:[, maxrad=MAXLONGl]} ${5:[, onlyselected=False]} ${6:[, ignorelist=None]} ${7:[, ignorecnt=0]})"},
+				{"trigger": "ViewportSelect.DrawPolygon(p, i, op[, onlyvisible=False])", "contents" : "DrawPolygon(${1:p}, ${2:i}, ${3:op} ${4:[, onlyvisible=False]})"},
+				{"trigger": "ViewportSelect.DrawHandle(p, i, op[, onlyvisible=False])", "contents" : "DrawHandle(${1:p}, ${2:i}, ${3:op} ${4:[, onlyvisible=False]})"},
+				{"trigger": "ViewportSelect.ShowHotspot(bw, x, y)", "contents" : "ShowHotspot(${1:bw}, ${2:x}, ${3:y})"},
+				{"trigger": "ViewportSelect.SetBrushRadius(r)", "contents" : "SetBrushRadius(${1:r})"},
+				{"trigger": "ViewportSelect.ClearPixelInfo(x, y, mask)", "contents" : "ClearPixelInfo(${1:x}, ${2:y}, ${3:mask})"},
+				{"trigger": "ViewportSelect.GetCameraCoordinates(x, y, z)", "contents" : "GetCameraCoordinates(${1:x}, ${2:y}, ${3:z})"},
+				{"trigger": "ViewportSelect.PickObject(bd, doc, x, y, rad, flags)", "contents" : "PickObject(${1:bd}, ${2:doc}, ${3:x}, ${4:y}, ${5:rad}, ${6:flags})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

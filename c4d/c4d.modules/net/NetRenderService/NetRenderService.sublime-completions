@@ -1,0 +1,31 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.net.NetRenderService", "contents" : "NetRenderService"},
+				{"trigger": "NetRenderService.GetUuid()", "contents" : "GetUuid()"},
+				{"trigger": "NetRenderService.Message(userUuid, op, isPrivate, msg[, result=None])", "contents" : "Message(${1:userUuid}, ${2:op}, ${3:isPrivate}, ${4:msg} ${5:[, result=None]})"},
+				{"trigger": "NetRenderService.ClearResults()", "contents" : "ClearResults()"},
+				{"trigger": "NetRenderService.GetInternalPort()", "contents" : "GetInternalPort()"},
+				{"trigger": "NetRenderService.GetExternalPort()", "contents" : "GetExternalPort()"},
+				{"trigger": "NetRenderService.GetNetPreferences()", "contents" : "GetNetPreferences()"},
+				{"trigger": "NetRenderService.GetAllMachineUuids([list=MACHINELIST_ALL, bits=VERIFICATIONBIT_0, includeLocalMachine=True, includeBonjourMachines=True])", "contents" : "GetAllMachineUuids( ${1:[list=2:MACHINELIST_ALL, bits=3:VERIFICATIONBIT_0, includeLocalMachine=4:True, includeBonjourMachines=True]})"},
+				{"trigger": "NetRenderService.GetMachinesList([getOnlyThisMachine=None])", "contents" : "GetMachinesList( ${1:[getOnlyThisMachine=None]})"},
+				{"trigger": "NetRenderService.GetUserPool()", "contents" : "GetUserPool()"},
+				{"trigger": "NetRenderService.GetJobsList(triggerWatchDog, rdata, assets, results, log[, selectedJob=None, selectedJobOnly=False, user=None])", "contents" : "GetJobsList(${1:triggerWatchDog}, ${2:rdata}, ${3:assets}, ${4:results}, ${5:log} ${6:[, selectedJob=7:None, selectedJobOnly=8:False, user=None]})"},
+				{"trigger": "NetRenderService.CreateRenderJob(docName, jobUuid, creator, username[, bt=None, watchFolderName=""])", "contents" : "CreateRenderJob(${1:docName}, ${2:jobUuid}, ${3:creator}, ${4:username} ${5:[, bt=6:None, watchFolderName=\"\"]})"},
+				{"trigger": "NetRenderService.StartRendering(mode, doc, jobUuid, bt)", "contents" : "StartRendering(${1:mode}, ${2:doc}, ${3:jobUuid}, ${4:bt})"},
+				{"trigger": "NetRenderService.InitRendering(doc, rdata, jobUuid, flags, machines)", "contents" : "InitRendering(${1:doc}, ${2:rdata}, ${3:jobUuid}, ${4:flags}, ${5:machines})"},
+				{"trigger": "NetRenderService.InitAndStartRenderingFullAsync(jobUuid)", "contents" : "InitAndStartRenderingFullAsync(${1:jobUuid})"},
+				{"trigger": "NetRenderService.StopRendering(mode, jobUuid, result)", "contents" : "StopRendering(${1:mode}, ${2:jobUuid}, ${3:result})"},
+				{"trigger": "NetRenderService.DeleteRenderJob(jobUuid, informClients)", "contents" : "DeleteRenderJob(${1:jobUuid}, ${2:informClients})"},
+				{"trigger": "NetRenderService.InsertJobAfter(jobUuid1, jobUuid2)", "contents" : "InsertJobAfter(${1:jobUuid1}, ${2:jobUuid2})"},
+				{"trigger": "NetRenderService.InsertJobBefore(jobUuid1, jobUuid2)", "contents" : "InsertJobBefore(${1:jobUuid1}, ${2:jobUuid2})"},
+				{"trigger": "NetRenderService.SetDefaultSceneName(jobUuid, defaultSceneName)", "contents" : "SetDefaultSceneName(${1:jobUuid}, ${2:defaultSceneName})"},
+				{"trigger": "NetRenderService.GetRepository()", "contents" : "GetRepository()"},
+				{"trigger": "NetRenderService.AddLogToJob(jobUuid, log, doLock[, append=True])", "contents" : "AddLogToJob(${1:jobUuid}, ${2:log}, ${3:doLock} ${4:[, append=True]})"},
+				{"trigger": "NetRenderService.AddLogToMachine(jobUuid, log, doLock)", "contents" : "AddLogToMachine(${1:jobUuid}, ${2:log}, ${3:doLock})"},
+				{"trigger": "NetRenderService.GetName()", "contents" : "GetName()"},
+				{"trigger": "NetRenderService.NetConsoleOutput(flags, value)", "contents" : "NetConsoleOutput(${1:flags}, ${2:value})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

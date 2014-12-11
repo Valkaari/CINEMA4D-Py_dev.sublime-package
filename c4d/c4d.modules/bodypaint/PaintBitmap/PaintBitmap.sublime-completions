@@ -1,0 +1,21 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.bodypaint.PaintBitmap", "contents" : "PaintBitmap"},
+				{"trigger": "PaintBitmap.GetBw()", "contents" : "GetBw()"},
+				{"trigger": "PaintBitmap.GetBh()", "contents" : "GetBh()"},
+				{"trigger": "PaintBitmap.GetPaintTexture()", "contents" : "GetPaintTexture()"},
+				{"trigger": "PaintBitmap.GetParent()", "contents" : "GetParent()"},
+				{"trigger": "PaintBitmap.GetLayerDownFirst()", "contents" : "GetLayerDownFirst()"},
+				{"trigger": "PaintBitmap.GetLayerDownLast()", "contents" : "GetLayerDownLast()"},
+				{"trigger": "PaintBitmap.GetAlphaFirst()", "contents" : "GetAlphaFirst()"},
+				{"trigger": "PaintBitmap.GetAlphaLast()", "contents" : "GetAlphaLast()"},
+				{"trigger": "PaintBitmap.AddAlphaChannel(bitdepth[, prev=None][, undo=True][, activate=True])", "contents" : "AddAlphaChannel(${1:bitdepth} ${2:[, prev=None]} ${3:[, undo=True]} ${4:[, activate=True]})"},
+				{"trigger": "PaintBitmap.AskApplyAlphaMask()", "contents" : "AskApplyAlphaMask()"},
+				{"trigger": "PaintBitmap.UpdateRefresh(xmin, ymin, xmax, ymax, flags)", "contents" : "UpdateRefresh(${1:xmin}, ${2:ymin}, ${3:xmax}, ${4:ymax}, ${5:flags})"},
+				{"trigger": "PaintBitmap.UpdateRefreshAll(flags, reallyall)", "contents" : "UpdateRefreshAll(${1:flags}, ${2:reallyall})"},
+				{"trigger": "PaintBitmap.GetColorMode()", "contents" : "GetColorMode()"},
+				{"trigger": "PaintBitmap.GetDirty(flags)", "contents" : "GetDirty(${1:flags})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

@@ -1,0 +1,12 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.net.GetGlobalNetRenderService()", "contents" : "GetGlobalNetRenderService()"},
+				{"trigger": "c4d.modules.net.VerificationStateToString(state)", "contents" : "VerificationStateToString(${1:state})"},
+				{"trigger": "c4d.modules.net.JobCommandToString(command)", "contents" : "JobCommandToString(${1:command})"},
+				{"trigger": "c4d.modules.net.JobStateToString(state)", "contents" : "JobStateToString(${1:state})"},
+				{"trigger": "c4d.modules.net.NetSpecialEventAdd(service, remoteUuid, msg[, forceConnect=True])", "contents" : "NetSpecialEventAdd(${1:service}, ${2:remoteUuid}, ${3:msg} ${4:[, forceConnect=True]})"},
+				{"trigger": "c4d.modules.net.NetGeSyncMessage(service, remoteUuid, msg[, forceConnect=True])", "contents" : "NetGeSyncMessage(${1:service}, ${2:remoteUuid}, ${3:msg} ${4:[, forceConnect=True]})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

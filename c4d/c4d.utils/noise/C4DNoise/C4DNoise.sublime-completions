@@ -1,0 +1,18 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.utils.noise.C4DNoise", "contents" : "C4DNoise"},
+				{"trigger": "C4DNoise.__init__([seed=665])", "contents" : "__init__( ${1:[seed=665]})"},
+				{"trigger": "C4DNoise.CreateMenuContainer([bIncludeNone=False])", "contents" : "CreateMenuContainer( ${1:[bIncludeNone=False]})"},
+				{"trigger": "C4DNoise.InitFbm(lMaxOctaves, rLacunarity, h)", "contents" : "InitFbm(${1:lMaxOctaves}, ${2:rLacunarity}, ${3:h})"},
+				{"trigger": "C4DNoise.Noise(t, two_d, p[, time=0.0][, octaves=4.0][, absolute=False][, sampleRad=0.25][, detailAtt=0.25][, t_repeat=0])", "contents" : "25] ${1:[, t_repeat=0]})"},
+				{"trigger": "C4DNoise.SNoise(p, lRepeat[, t=0.0])", "contents" : "0])"},
+				{"trigger": "C4DNoise.Turbulence(p, rOctaves, bAsolute[, t=0.0])", "contents" : "0])"},
+				{"trigger": "C4DNoise.Fbm(p, rOctaves, lRepeat[, t=0.0])", "contents" : "0])"},
+				{"trigger": "C4DNoise.RidgedMultifractal(p, rOctaves, rOffset, rGain, lRepeat[, t=0])", "contents" : "RidgedMultifractal(${1:p}, ${2:rOctaves}, ${3:rOffset}, ${4:rGain}, ${5:lRepeat} ${6:[, t=0]})"},
+				{"trigger": "C4DNoise.HasOctaves(t)", "contents" : "HasOctaves(${1:t})"},
+				{"trigger": "C4DNoise.HasAbsolute(t)", "contents" : "HasAbsolute(${1:t})"},
+				{"trigger": "C4DNoise.HasCycles(t)", "contents" : "HasCycles(${1:t})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

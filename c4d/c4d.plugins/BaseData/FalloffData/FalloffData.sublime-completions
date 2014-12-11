@@ -1,0 +1,18 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.plugins.FalloffData", "contents" : "FalloffData"},
+				{"trigger": "FalloffData.Init(self, falldata, bc)", "contents" : "Init(${1:self}, ${2:falldata}, ${3:bc})"},
+				{"trigger": "FalloffData.InitFalloff(self, bc, falldata)", "contents" : "InitFalloff(${1:self}, ${2:bc}, ${3:falldata})"},
+				{"trigger": "FalloffData.Sample(self, p, data)", "contents" : "Sample(${1:self}, ${2:p}, ${3:data})"},
+				{"trigger": "FalloffData.FreeFalloff(self, falldata)", "contents" : "FreeFalloff(${1:self}, ${2:falldata})"},
+				{"trigger": "FalloffData.CheckDirty(self, bc)", "contents" : "CheckDirty(${1:self}, ${2:bc})"},
+				{"trigger": "FalloffData.GetDVisible(self, id, bc, desc_bc)", "contents" : "GetDVisible(${1:self}, ${2:id}, ${3:bc}, ${4:desc_bc})"},
+				{"trigger": "FalloffData.GetHandleCount(self, bc, data)", "contents" : "GetHandleCount(${1:self}, ${2:bc}, ${3:data})"},
+				{"trigger": "FalloffData.GetHandle(self, bc, i, info, data)", "contents" : "GetHandle(${1:self}, ${2:bc}, ${3:i}, ${4:info}, ${5:data})"},
+				{"trigger": "FalloffData.SetHandle(self, bc, i, p, data)", "contents" : "SetHandle(${1:self}, ${2:bc}, ${3:i}, ${4:p}, ${5:data})"},
+				{"trigger": "FalloffData.Draw(self, data, drawpass, bd, bh)", "contents" : "Draw(${1:self}, ${2:data}, ${3:drawpass}, ${4:bd}, ${5:bh})"},
+				{"trigger": "FalloffData.Message(self, type, bc, m_data)", "contents" : "Message(${1:self}, ${2:type}, ${3:bc}, ${4:m_data})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

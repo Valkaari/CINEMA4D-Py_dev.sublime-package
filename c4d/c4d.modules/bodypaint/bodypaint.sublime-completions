@@ -1,0 +1,10 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.bodypaint.IdentifyImage(texpath)", "contents" : "IdentifyImage(${1:texpath})"},
+				{"trigger": "c4d.modules.bodypaint.PainterActivateChannel(channel, multi, enable)", "contents" : "PainterActivateChannel(${1:channel}, ${2:multi}, ${3:enable})"},
+				{"trigger": "c4d.modules.bodypaint.BPSetupWizardWithParameters(doc, settings, objects, material)", "contents" : "BPSetupWizardWithParameters(${1:doc}, ${2:settings}, ${3:objects}, ${4:material})"},
+				{"trigger": "c4d.modules.bodypaint.SendPainterCommand(command, doc, tex, bc)", "contents" : "SendPainterCommand(${1:command}, ${2:doc}, ${3:tex}, ${4:bc})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

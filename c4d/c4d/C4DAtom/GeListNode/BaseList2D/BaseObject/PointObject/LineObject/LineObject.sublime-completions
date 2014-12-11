@@ -1,0 +1,10 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.LineObject", "contents" : "LineObject"},
+				{"trigger": "LineObject.__init__(pcnt, scnt)", "contents" : "__init__(${1:pcnt}, ${2:scnt})"},
+				{"trigger": "LineObject.Triangulate(regular)", "contents" : "Triangulate(${1:regular})"},
+				{"trigger": "LineObject.GetSegmentCount()", "contents" : "GetSegmentCount()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

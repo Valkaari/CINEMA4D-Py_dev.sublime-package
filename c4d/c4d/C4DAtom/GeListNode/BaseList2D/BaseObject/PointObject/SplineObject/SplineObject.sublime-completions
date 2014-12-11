@@ -1,0 +1,20 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.SplineObject", "contents" : "SplineObject"},
+				{"trigger": "SplineObject.__init__(pcnt, type)", "contents" : "__init__(${1:pcnt}, ${2:type})"},
+				{"trigger": "SplineObject.GetInterpolationType()", "contents" : "GetInterpolationType()"},
+				{"trigger": "SplineObject.IsClosed()", "contents" : "IsClosed()"},
+				{"trigger": "SplineObject.GetSplinePoint(t[, segment=0])", "contents" : "GetSplinePoint(${1:t} ${2:[, segment=0]})"},
+				{"trigger": "SplineObject.GetSplineTangent(t[, segment=0])", "contents" : "GetSplineTangent(${1:t} ${2:[, segment=0]})"},
+				{"trigger": "SplineObject.GetSegment(id)", "contents" : "GetSegment(${1:id})"},
+				{"trigger": "SplineObject.SetSegment(segment, cnt, closed)", "contents" : "SetSegment(${1:segment}, ${2:cnt}, ${3:closed})"},
+				{"trigger": "SplineObject.GetSegmentCount()", "contents" : "GetSegmentCount()"},
+				{"trigger": "SplineObject.ResizeObject(pcnt[, scnt=-1])", "contents" : "ResizeObject(${1:pcnt} ${2:[, scnt=-1]})"},
+				{"trigger": "SplineObject.SetDefaultCoeff()", "contents" : "SetDefaultCoeff()"},
+				{"trigger": "SplineObject.GetTangentCount()", "contents" : "GetTangentCount()"},
+				{"trigger": "SplineObject.GetTangent(id)", "contents" : "GetTangent(${1:id})"},
+				{"trigger": "SplineObject.SetTangent(id, vl, vr)", "contents" : "SetTangent(${1:id}, ${2:vl}, ${3:vr})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

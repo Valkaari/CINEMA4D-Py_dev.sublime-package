@@ -1,0 +1,15 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.plugins.CommandData", "contents" : "CommandData"},
+				{"trigger": "CommandData.Execute(self, doc)", "contents" : "Execute(${1:self}, ${2:doc})"},
+				{"trigger": "CommandData.RestoreLayout(self, secret)", "contents" : "RestoreLayout(${1:self}, ${2:secret})"},
+				{"trigger": "CommandData.Message(self, type, data)", "contents" : "Message(${1:self}, ${2:type}, ${3:data})"},
+				{"trigger": "CommandData.GetSubContainer(self, doc, submenu)", "contents" : "GetSubContainer(${1:self}, ${2:doc}, ${3:submenu})"},
+				{"trigger": "CommandData.GetScriptName(self)", "contents" : "GetScriptName(${1:self})"},
+				{"trigger": "CommandData.ExecuteSubID(self, doc, subid)", "contents" : "ExecuteSubID(${1:self}, ${2:doc}, ${3:subid})"},
+				{"trigger": "CommandData.ExecuteOptionID(self, doc, plugid, subid)", "contents" : "ExecuteOptionID(${1:self}, ${2:doc}, ${3:plugid}, ${4:subid})"},
+				{"trigger": "CommandData.GetState(self, doc)", "contents" : "GetState(${1:self}, ${2:doc})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

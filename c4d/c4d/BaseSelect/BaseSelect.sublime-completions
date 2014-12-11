@@ -1,0 +1,28 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.BaseSelect", "contents" : "BaseSelect"},
+				{"trigger": "BaseSelect.__init__()", "contents" : "__init__()"},
+				{"trigger": "BaseSelect.GetCount()", "contents" : "GetCount()"},
+				{"trigger": "BaseSelect.GetSegments()", "contents" : "GetSegments()"},
+				{"trigger": "BaseSelect.IsSelected(num)", "contents" : "IsSelected(${1:num})"},
+				{"trigger": "BaseSelect.Select(num)", "contents" : "Select(${1:num})"},
+				{"trigger": "BaseSelect.SelectAll(max[, min=0])", "contents" : "SelectAll(${1:max} ${2:[, min=0]})"},
+				{"trigger": "BaseSelect.Deselect(num)", "contents" : "Deselect(${1:num})"},
+				{"trigger": "BaseSelect.DeselectAll()", "contents" : "DeselectAll()"},
+				{"trigger": "BaseSelect.Toggle(num)", "contents" : "Toggle(${1:num})"},
+				{"trigger": "BaseSelect.ToggleAll(min[, max])", "contents" : "ToggleAll(${1:min} ${2:[, max]})"},
+				{"trigger": "BaseSelect.Merge(src)", "contents" : "Merge(${1:src})"},
+				{"trigger": "BaseSelect.DeselectFrom(src)", "contents" : "DeselectFrom(${1:src})"},
+				{"trigger": "BaseSelect.GetClone()", "contents" : "GetClone()"},
+				{"trigger": "BaseSelect.GetDirty()", "contents" : "GetDirty()"},
+				{"trigger": "BaseSelect.CopyTo(dest)", "contents" : "CopyTo(${1:dest})"},
+				{"trigger": "BaseSelect.SetAll(states)", "contents" : "SetAll(${1:states})"},
+				{"trigger": "BaseSelect.GetAll(max)", "contents" : "GetAll(${1:max})"},
+				{"trigger": "BaseSelect.HostAlive()", "contents" : "HostAlive()"},
+				{"trigger": "BaseSelect.Write(hf)", "contents" : "Write(${1:hf})"},
+				{"trigger": "BaseSelect.Read(hf)", "contents" : "Read(${1:hf})"},
+				{"trigger": "BaseSelect.GetLastElement()", "contents" : "GetLastElement()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

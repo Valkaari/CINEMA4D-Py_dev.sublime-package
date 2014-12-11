@@ -1,0 +1,15 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.sculpting.SculptModifierInterface", "contents" : "SculptModifierInterface"},
+				{"trigger": "SculptModifierInterface.Init(poly)", "contents" : "Init(${1:poly})"},
+				{"trigger": "SculptModifierInterface.Clear()", "contents" : "Clear()"},
+				{"trigger": "SculptModifierInterface.GetDefaultData()", "contents" : "GetDefaultData()"},
+				{"trigger": "SculptModifierInterface.GetModifierCount()", "contents" : "GetModifierCount()"},
+				{"trigger": "SculptModifierInterface.GetModifierInfo(index)", "contents" : "GetModifierInfo(${1:index})"},
+				{"trigger": "SculptModifierInterface.SetData(brushData, modifierData)", "contents" : "SetData(${1:brushData}, ${2:modifierData})"},
+				{"trigger": "SculptModifierInterface.ApplyModifier(modifierId, vertex, brushData, modifierData[, respectselections=False])", "contents" : "ApplyModifier(${1:modifierId}, ${2:vertex}, ${3:brushData}, ${4:modifierData} ${5:[, respectselections=False]})"},
+				{"trigger": "SculptModifierInterface.ApplyModifierExact(modifierId, vertex, brushData, modifierData, hitpoint, lasthitpoint[, respectselections=False])", "contents" : "ApplyModifierExact(${1:modifierId}, ${2:vertex}, ${3:brushData}, ${4:modifierData}, ${5:hitpoint}, ${6:lasthitpoint} ${7:[, respectselections=False]})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

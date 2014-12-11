@@ -1,0 +1,14 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.CheckTP()", "contents" : "CheckTP()"},
+				{"trigger": "c4d.modules.CheckMoGraph()", "contents" : "CheckMoGraph()"},
+				{"trigger": "c4d.modules.CheckAR()", "contents" : "CheckAR()"},
+				{"trigger": "c4d.modules.CheckHair()", "contents" : "CheckHair()"},
+				{"trigger": "c4d.modules.CheckSketch()", "contents" : "CheckSketch()"},
+				{"trigger": "c4d.modules.CheckMocca()", "contents" : "CheckMocca()"},
+				{"trigger": "c4d.modules.CheckDynamics()", "contents" : "CheckDynamics()"},
+				{"trigger": "c4d.modules.CheckSculpting()", "contents" : "CheckSculpting()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

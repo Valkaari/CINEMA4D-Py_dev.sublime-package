@@ -1,0 +1,9 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.gui.DateTimeControl", "contents" : "DateTimeControl"},
+				{"trigger": "DateTimeControl.SetDateTime(d[, bSetData=True][, bSetTime=True])", "contents" : "SetDateTime(${1:d} ${2:[, bSetData=True]} ${3:[, bSetTime=True]})"},
+				{"trigger": "DateTimeControl.GetDateTime()", "contents" : "GetDateTime()"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

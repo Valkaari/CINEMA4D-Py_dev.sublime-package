@@ -1,0 +1,15 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.utils.Neighbor", "contents" : "Neighbor"},
+				{"trigger": "Neighbor.__init__()", "contents" : "__init__()"},
+				{"trigger": "Neighbor.Init(op[, bs=None])", "contents" : "Init(${1:op} ${2:[, bs=None]})"},
+				{"trigger": "Neighbor.Flush()", "contents" : "Flush()"},
+				{"trigger": "Neighbor.GetNeighbor(a, b, poly)", "contents" : "GetNeighbor(${1:a}, ${2:b}, ${3:poly})"},
+				{"trigger": "Neighbor.GetPointPolys(pnt)", "contents" : "GetPointPolys(${1:pnt})"},
+				{"trigger": "Neighbor.GetEdgePolys(a, b)", "contents" : "GetEdgePolys(${1:a}, ${2:b})"},
+				{"trigger": "Neighbor.GetEdgeCount()", "contents" : "GetEdgeCount()"},
+				{"trigger": "Neighbor.GetPolyInfo(poly)", "contents" : "GetPolyInfo(${1:poly})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

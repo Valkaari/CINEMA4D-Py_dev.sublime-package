@@ -1,0 +1,20 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.CCurve", "contents" : "CCurve"},
+				{"trigger": "CCurve.GetKeyCount()", "contents" : "GetKeyCount()"},
+				{"trigger": "CCurve.GetKey(index)", "contents" : "GetKey(${1:index})"},
+				{"trigger": "CCurve.FindKey(time[, match=FINDANIM_EXACT])", "contents" : "FindKey(${1:time} ${2:[, match=FINDANIM_EXACT]})"},
+				{"trigger": "CCurve.AddKey(time)", "contents" : "AddKey(${1:time})"},
+				{"trigger": "CCurve.InsertKey(ckey)", "contents" : "InsertKey(${1:ckey})"},
+				{"trigger": "CCurve.DelKey(index)", "contents" : "DelKey(${1:index})"},
+				{"trigger": "CCurve.MoveKey(time, idx[, dseq=None])", "contents" : "MoveKey(${1:time}, ${2:idx} ${3:[, dseq=None]})"},
+				{"trigger": "CCurve.FlushKeys()", "contents" : "FlushKeys()"},
+				{"trigger": "CCurve.SortKeysByTime()", "contents" : "SortKeysByTime()"},
+				{"trigger": "CCurve.SetKeyDirty()", "contents" : "SetKeyDirty()"},
+				{"trigger": "CCurve.GetTrack()", "contents" : "GetTrack()"},
+				{"trigger": "CCurve.GetValue(time, fps)", "contents" : "GetValue(${1:time}, ${2:fps})"},
+				{"trigger": "CCurve.SetKeyDefault(doc, kidx)", "contents" : "SetKeyDefault(${1:doc}, ${2:kidx})"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}

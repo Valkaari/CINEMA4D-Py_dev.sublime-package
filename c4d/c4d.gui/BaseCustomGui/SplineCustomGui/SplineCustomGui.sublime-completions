@@ -1,0 +1,16 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.gui.SplineCustomGui", "contents" : "SplineCustomGui"},
+				{"trigger": "SplineCustomGui.SetSpline(data)", "contents" : "SetSpline(${1:data})"},
+				{"trigger": "SplineCustomGui.GetSplineData()", "contents" : "GetSplineData()"},
+				{"trigger": "SplineCustomGui.SetGridLineCountH(l)", "contents" : "SetGridLineCountH(${1:l})"},
+				{"trigger": "SplineCustomGui.SetGridLineCountV(l)", "contents" : "SetGridLineCountV(${1:l})"},
+				{"trigger": "SplineCustomGui.GetGridLineCountH()", "contents" : "GetGridLineCountH()"},
+				{"trigger": "SplineCustomGui.GetGridLineCountV()", "contents" : "GetGridLineCountV()"},
+				{"trigger": "SplineCustomGui.GetScreenPosition(v)", "contents" : "GetScreenPosition(${1:v})"},
+				{"trigger": "SplineCustomGui.GetValue(x, y)", "contents" : "GetValue(${1:x}, ${2:y})"},
+				{"trigger": "SplineCustomGui.SetCustomColor([bSet=False][, col=Vector(0.0, 0.0, 0.0)])", "contents" : "${1:0})])"},
+  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
+		]
+}
