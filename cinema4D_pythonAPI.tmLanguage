@@ -43,33 +43,6 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>begin</key>
-			<string>(\bc4d\b)(\.)</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>keyword.module.pythonAPI.cinema4D</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>ponctuation.pythonAPI.cinema4D</string>
-				</dict>
-			</dict>
-			<key>end</key>
-			<string>\b()\b</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>class.c4d.pythonAPI.cinema4D</string>
-				</dict>
-			</dict>
-		</dict>
-		<dict>
 			<key>include</key>
 			<string>source.python</string>
 		</dict>
