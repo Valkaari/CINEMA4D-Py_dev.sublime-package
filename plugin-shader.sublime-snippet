@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+"""
+Plugin name : $1
+Copyright: 
+Written for CINEMA 4D Rxx.xxx
+
+Modified Date: 
+"""
+
+import os
+import math
+
+import c4d
+from c4d import plugins, bitmaps, utils
+
+#warning Please obtain your own plugin ID from http://www.plugincafe.com
+# 1000001-1000010
+PLUGIN_ID=1000001
+
+class $1(plugins.ShaderData):
+    """docstring for $1"""
+    def __init__(self):
+        #if a Python exception occurs during the calculation
+        #of a pixel colorize this one in red for debugging purposes
+        self.SetExceptionColor(c4d.Vector(1,0,0))
+    
+   
+    def Output(self, sh, cd):
+        #Called for each point of the visible surface of a shaded object. Here you should calculate and return the channel color for the point cd.p.
+        return c4d.Vector(0.0)
+
+    def InitRender(self,sh, irs):
+        #Override - Precalculate any data for rendering.
+        return c4d.INITRENDERRESULT_OK
+
+    def FreeRender(self, sh):
+        #Free any resources used for the precalculated data from InitRender().
+        return
+
+
+
+if __name__=='__main__':
+    IDS_PY_FRESNEL=10000 #string resource, must be manually defined
+    plugins.RegisterShaderPlugin(id = PLUGIN_ID, str="Py-$1",info=0, g=$1, description="", disklevel=0)
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cinemaPlugin Shader</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.pythonAPI.cinema4D</scope>
+    <description>      Shader structure</description>
+</snippet>

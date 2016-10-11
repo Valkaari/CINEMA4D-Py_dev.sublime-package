@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 """
-$0
+Plugin name : $1
 Copyright: 
 Written for CINEMA 4D Rxx.xxx
 
@@ -13,14 +13,15 @@ from c4d import gui, plugins, utils, bitmaps, storage
 
 import collections, os
 
-#be sure to use a unique ID obtained from www.plugincafe.com
+# be sure to use a unique ID obtained from www.plugincafe.com
 # 1000001-1000010
 PLUGIN_ID = 1000001
 
 
     
    
-class $1(gui.GeDialog):
+class $2(gui.GeDialog):
+    """docstring for $2"""
     
     def __init__(self):
         #self.AddGadget(c4d.DIALOG_NOMENUBAR, 0)#disable menubar
@@ -44,14 +45,15 @@ class $1(gui.GeDialog):
     	return c4d.gui.GeDialog.Message(self, msg, result)
     
 
-class $0(c4d.plugins.CommandData):
+class $1(c4d.plugins.CommandData):
+    """docstring for $1"""
     dialog = None
 
     def Execute(self, doc):
         """Just create the dialog when the user clicked on the entry
         in the plugins menu to open it."""
         if self.dialog is None:
-           self.dialog = $1()
+           self.dialog = $2()
 
         return self.dialog.Open(dlgtype=c4d.DLG_TYPE_ASYNC, pluginid=PLUGIN_ID, defaulth=400, defaultw=400)
 
@@ -59,7 +61,7 @@ class $0(c4d.plugins.CommandData):
         """Same for this method. Just allocate it when the dialog
         is needed"""
         if self.dialog is None:
-           self.dialog = $1()
+           self.dialog = $2()
 
         return self.dialog.Restore(pluginid=PLUGIN_ID, secret=sec_ref)
 
@@ -70,10 +72,11 @@ if __name__ == "__main__":
      bmp.InitWith(fn)
      c4d.plugins.RegisterCommandPlugin(id=PLUGIN_ID, str="plugin_name",
                                       help="show the help message",info=0,
-                                        dat=$0(), icon=bmp)
+                                        dat=$1(), icon=bmp)
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cinemacommand</tabTrigger>
+	<tabTrigger>cinemaPlugin Command</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.pythonAPI.cinema4D</scope>
+    <description>      Command structure with UI</description>
 </snippet>

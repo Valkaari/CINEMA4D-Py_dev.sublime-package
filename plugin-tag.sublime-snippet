@@ -1,10 +1,9 @@
 <snippet>
 	<content><![CDATA[
-
 """
 Plugin name : $0
 Copyright: 
-Written for CINEMA 4D R
+Written for CINEMA 4D Rxx.xxx
 
 Modified Date: 
 """
@@ -14,11 +13,12 @@ import c4d
 from c4d import bitmaps, plugins, utils
 
 # Be sure to use a unique ID obtained from www.plugincafe.com
+# 1000001-1000010
 PLUGIN_ID = 1000001
 
 
 class $0(plugins.TagData):
-    """$0"""
+    """docstring for $0"""
     
     def Init(self, node):
                 
@@ -43,8 +43,9 @@ if __name__ == "__main__":
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cinematag</tabTrigger>
+	<tabTrigger>cinemaPlugin Tag</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.pythonAPI.cinema4D</scope>
+    <description>      Tag structure</description>
 
 </snippet>

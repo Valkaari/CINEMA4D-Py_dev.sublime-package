@@ -1,0 +1,96 @@
+<snippet>
+	<content><![CDATA[
+"""
+Plugin name : $1
+Copyright: 
+Written for CINEMA 4D Rxx.xxx
+
+Modified Date: 
+"""
+import os
+import sys
+import c4d
+from c4d import plugins, utils, bitmaps, gui
+
+# Be sure to use a unique ID obtained from www.plugincafe.com
+# 1000001-1000010
+PLUGIN_ID = 1000001
+
+
+class $1(plugins.ObjectData):
+    """docstring for $1"""
+    def Message(self, node, type, data):
+
+        return True
+    
+
+    def Init(self, op):
+        
+        return True
+    
+
+    def GetDimension(self, op, mp, rad):
+        #Return the boundaries of your object.
+        pass
+    
+
+    def GetHandleCount(op):
+    	#Called to get the number of handles the object has
+        return $1.HANDLECOUNT
+
+
+    def GetHandle(self, op, i, info):
+    	#Called to get the information for handle
+
+        pass
+
+    def SetHandle(self, op, i, p, info):
+    	#called to update UI
+    	data = op.GetDataInstance()
+        if data is None: return
+        #val = p*info.direction
+        #data.SetReal(c4d.PYCIRCLEOBJECT_RAD, utils.FCut(val, 0.0, sys.maxint))
+        
+    
+    def DetectHandle(self, op, bd, x, y, qualifier):
+        #Manually detect a click on a handle
+
+        return
+
+
+    def MoveHandle(self, op, undo, mouse_pos, hit_id, qualifier, bd):
+        #Move a handle manually
+
+        return True
+
+
+    def Draw(self, op, drawpass, bd, bh):
+    	#Called when the display is updated for you to display some visual element of your op in the 3D view
+            
+        return c4d.DRAWRESULT_OK
+        
+        return c4d.DRAWRESULT_SKIP
+    
+    def GetContour(self, op, doc, lod, bt):
+
+        #should return a spline
+
+    def GetDEnabling(self, node, id, t_data, flags, itemdesc):
+
+        return true
+
+if __name__ == "__main__":
+    path, fn = os.path.split(__file__)
+    bmp = bitmaps.BaseBitmap()
+    bmp.InitWith(os.path.join(path, "res", "$2.tif"))
+    plugins.RegisterObjectPlugin(id=PLUGIN_ID, str="Py-$1",
+                                g=$1,
+                                description="$2", icon=bmp,
+                                info=c4d.OBJECT_MODIFIER)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cinemaPlugin Object Spline</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.pythonAPI.cinema4D</scope>
+    <description>      Spline generator structure</description>
+</snippet>
