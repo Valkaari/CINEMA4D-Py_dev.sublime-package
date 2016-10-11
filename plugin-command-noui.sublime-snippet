@@ -1,0 +1,50 @@
+<snippet>
+	<content><![CDATA[
+"""
+Plugin name : $1
+Copyright: 
+Written for CINEMA 4D Rxx.xxx
+
+Modified Date: 
+"""
+
+import c4d
+from c4d import gui, plugins, utils, bitmaps, storage
+
+import collections, os
+
+# be sure to use a unique ID obtained from www.plugincafe.com
+# 1000001-1000010
+PLUGIN_ID = 1000001
+
+
+    
+   
+
+
+class $1(c4d.plugins.CommandData):
+    """docstring for $1"""
+    def Execute(self, doc):
+        #do what you need to do
+        c4d.EventAdd()
+        return true
+
+    def GetState(self, doc):
+
+        return c4d.CMD_ENABLED
+
+if __name__ == "__main__":
+     bmp = bitmaps.BaseBitmap()
+     dir, f = os.path.split(__file__)
+     fn = os.path.join(dir, "res", "icon_Name.tif")
+     bmp.InitWith(fn)
+     c4d.plugins.RegisterCommandPlugin(id=PLUGIN_ID, str="plugin_name",
+                                      help="show the help message",info=0,
+                                        dat=$1(), icon=bmp)
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cinemaPlugin Command woui</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.pythonAPI.cinema4D</scope>
+    <description>      Command structure without UI</description>
+</snippet>
