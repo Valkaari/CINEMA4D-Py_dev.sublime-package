@@ -1,0 +1,16 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.motiontracker.MtFootageDataSdk", "contents" : "MtFootageDataSdk"},
+				{"trigger": "MtFootageDataSdk.GetFootageName()", "contents" : "GetFootageName()"},
+				{"trigger": "MtFootageDataSdk.GetFirstFrameNumber()", "contents" : "GetFirstFrameNumber()"},
+				{"trigger": "MtFootageDataSdk.GetLastFrameNumber()", "contents" : "GetLastFrameNumber()"},
+				{"trigger": "MtFootageDataSdk.GetResolutionWidthPix(originalRes)", "contents" : "GetResolutionWidthPix(${1:originalRes})"},
+				{"trigger": "MtFootageDataSdk.GetResolutionHeightPix(originalRes)", "contents" : "GetResolutionHeightPix(${1:originalRes})"},
+				{"trigger": "MtFootageDataSdk.GetResolutionAspectRatio()", "contents" : "GetResolutionAspectRatio()"},
+				{"trigger": "MtFootageDataSdk.GetImageAspectRatio()", "contents" : "GetImageAspectRatio()"},
+				{"trigger": "MtFootageDataSdk.GetPixelAspectRatio()", "contents" : "GetPixelAspectRatio()"},
+				{"trigger": "MtFootageDataSdk.GetDownsamplingFactor()", "contents" : "GetDownsamplingFactor()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

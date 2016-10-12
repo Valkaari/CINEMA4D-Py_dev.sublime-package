@@ -1,0 +1,16 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.render.ChannelData", "contents" : "ChannelData"},
+				{"trigger": "ChannelData.p", "contents" : "p"},
+				{"trigger": "ChannelData.n", "contents" : "n"},
+				{"trigger": "ChannelData.d", "contents" : "d"},
+				{"trigger": "ChannelData.t", "contents" : "t"},
+				{"trigger": "ChannelData.texflag", "contents" : "texflag"},
+				{"trigger": "ChannelData.vd", "contents" : "vd"},
+				{"trigger": "ChannelData.off", "contents" : "off"},
+				{"trigger": "ChannelData.scale", "contents" : "scale"},
+				{"trigger": "ChannelData.__init__([t_vd])", "contents" : "__init__( ${1:[t_vd]})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

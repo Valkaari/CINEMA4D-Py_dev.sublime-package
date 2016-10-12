@@ -1,0 +1,29 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.takesystem.BaseTake", "contents" : "BaseTake"},
+				{"trigger": "BaseTake.IsMain()", "contents" : "IsMain()"},
+				{"trigger": "BaseTake.SearchHierarchy(op)", "contents" : "SearchHierarchy(${1:op})"},
+				{"trigger": "BaseTake.GetOverrides()", "contents" : "GetOverrides()"},
+				{"trigger": "BaseTake.GetOverrideGroups()", "contents" : "GetOverrideGroups()"},
+				{"trigger": "BaseTake.FindOrAddOverrideParam(takeData, node, descID, overrideValue[, backupValue=None, deleteAnim=False])", "contents" : "FindOrAddOverrideParam(${1:takeData}, ${2:node}, ${3:descID}, ${4:overrideValue} ${5:[, backupValue=6:None, deleteAnim=False]})"},
+				{"trigger": "BaseTake.OverrideNode(takeData, node, deleteAnim)", "contents" : "OverrideNode(${1:takeData}, ${2:node}, ${3:deleteAnim})"},
+				{"trigger": "BaseTake.AutoTake(takeData, node, undo)", "contents" : "AutoTake(${1:takeData}, ${2:node}, ${3:undo})"},
+				{"trigger": "BaseTake.DeleteOverride(takeData, node, descID)", "contents" : "DeleteOverride(${1:takeData}, ${2:node}, ${3:descID})"},
+				{"trigger": "BaseTake.FindOverride(takeData, node)", "contents" : "FindOverride(${1:takeData}, ${2:node})"},
+				{"trigger": "BaseTake.FindOverrideInHierarchy(takeData, node, descID)", "contents" : "FindOverrideInHierarchy(${1:takeData}, ${2:node}, ${3:descID})"},
+				{"trigger": "BaseTake.AddOverrideGroup()", "contents" : "AddOverrideGroup()"},
+				{"trigger": "BaseTake.GetFirstOverrideGroup()", "contents" : "GetFirstOverrideGroup()"},
+				{"trigger": "BaseTake.DeleteOverrideGroup(takeData, og)", "contents" : "DeleteOverrideGroup(${1:takeData}, ${2:og})"},
+				{"trigger": "BaseTake.GetCamera(takeData)", "contents" : "GetCamera(${1:takeData})"},
+				{"trigger": "BaseTake.GetEffectiveCamera(takeData)", "contents" : "GetEffectiveCamera(${1:takeData})"},
+				{"trigger": "BaseTake.SetCamera(takeData, camera)", "contents" : "SetCamera(${1:takeData}, ${2:camera})"},
+				{"trigger": "BaseTake.GetRenderData(takeData)", "contents" : "GetRenderData(${1:takeData})"},
+				{"trigger": "BaseTake.GetEffectiveRenderData(takeData)", "contents" : "GetEffectiveRenderData(${1:takeData})"},
+				{"trigger": "BaseTake.SetRenderData(takeData, rData)", "contents" : "SetRenderData(${1:takeData}, ${2:rData})"},
+				{"trigger": "BaseTake.IsChecked()", "contents" : "IsChecked()"},
+				{"trigger": "BaseTake.SetChecked(status)", "contents" : "SetChecked(${1:status})"},
+				{"trigger": "BaseTake.Reset()", "contents" : "Reset()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

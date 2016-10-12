@@ -1,0 +1,26 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.mograph.FalloffDataData", "contents" : "FalloffDataData"},
+				{"trigger": "FalloffDataData.mat", "contents" : "mat"},
+				{"trigger": "FalloffDataData.imat", "contents" : "imat"},
+				{"trigger": "FalloffDataData.falloff", "contents" : "falloff"},
+				{"trigger": "FalloffDataData.scale", "contents" : "scale"},
+				{"trigger": "FalloffDataData.strength", "contents" : "strength"},
+				{"trigger": "FalloffDataData.size", "contents" : "size"},
+				{"trigger": "FalloffDataData.invert", "contents" : "invert"},
+				{"trigger": "FalloffDataData.clamped", "contents" : "clamped"},
+				{"trigger": "FalloffDataData.visible", "contents" : "visible"},
+				{"trigger": "FalloffDataData.usespline", "contents" : "usespline"},
+				{"trigger": "FalloffDataData.useSpline", "contents" : "useSpline"},
+				{"trigger": "FalloffDataData.nodemat", "contents" : "nodemat"},
+				{"trigger": "FalloffDataData.inodemat", "contents" : "inodemat"},
+				{"trigger": "FalloffDataData.inverseNodeMat", "contents" : "inverseNodeMat"},
+				{"trigger": "FalloffDataData.offset", "contents" : "offset"},
+				{"trigger": "FalloffDataData.axis", "contents" : "axis"},
+				{"trigger": "FalloffDataData.slice", "contents" : "slice"},
+				{"trigger": "FalloffDataData.torusRadius", "contents" : "torusRadius"},
+				{"trigger": "FalloffDataData.function", "contents" : "function"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

@@ -1,0 +1,13 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.BaseMaterial", "contents" : "BaseMaterial"},
+				{"trigger": "BaseMaterial.__init__(type)", "contents" : "__init__(${1:type})"},
+				{"trigger": "BaseMaterial.Compare(snd)", "contents" : "Compare(${1:snd})"},
+				{"trigger": "BaseMaterial.GetPreview([flags=0])", "contents" : "GetPreview( ${1:[flags=0]})"},
+				{"trigger": "BaseMaterial.GetAverageColor([channel=NOTOK])", "contents" : "GetAverageColor( ${1:[channel=NOTOK]})"},
+				{"trigger": "BaseMaterial.Update(preview, rttm)", "contents" : "Update(${1:preview}, ${2:rttm})"},
+				{"trigger": "BaseMaterial.GetRenderInfo()", "contents" : "GetRenderInfo()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

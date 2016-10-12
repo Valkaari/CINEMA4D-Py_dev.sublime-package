@@ -1,0 +1,13 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.hair.HairLibrary", "contents" : "HairLibrary"},
+				{"trigger": "HairLibrary.SetMode(doc, mode)", "contents" : "SetMode(${1:doc}, ${2:mode})"},
+				{"trigger": "HairLibrary.GetMode(doc)", "contents" : "GetMode(${1:doc})"},
+				{"trigger": "HairLibrary.BlendColors(mode, colA, colB)", "contents" : "BlendColors(${1:mode}, ${2:colA}, ${3:colB})"},
+				{"trigger": "HairLibrary.MixST(s, t, pa, pb, pc, pd, bQuad)", "contents" : "MixST(${1:s}, ${2:t}, ${3:pa}, ${4:pb}, ${5:pc}, ${6:pd}, ${7:bQuad})"},
+				{"trigger": "HairLibrary.GetPolyPointST(p, pa, pb, pc, pd, bQuad)", "contents" : "GetPolyPointST(${1:p}, ${2:pa}, ${3:pb}, ${4:pc}, ${5:pd}, ${6:bQuad})"},
+				{"trigger": "HairLibrary.GetHairVersion()", "contents" : "GetHairVersion()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

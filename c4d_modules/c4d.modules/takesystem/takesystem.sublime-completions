@@ -1,0 +1,8 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.takesystem.IsTakeRenderRunning()", "contents" : "IsTakeRenderRunning()"},
+				{"trigger": "c4d.modules.takesystem.StopTakeRender()", "contents" : "StopTakeRender()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

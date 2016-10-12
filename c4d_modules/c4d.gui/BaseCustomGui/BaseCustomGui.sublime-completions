@@ -1,0 +1,18 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.gui.BaseCustomGui", "contents" : "BaseCustomGui"},
+				{"trigger": "BaseCustomGui.GetWidth()", "contents" : "GetWidth()"},
+				{"trigger": "BaseCustomGui.GetHeight()", "contents" : "GetHeight()"},
+				{"trigger": "BaseCustomGui.Redraw()", "contents" : "Redraw()"},
+				{"trigger": "BaseCustomGui.LayoutChanged()", "contents" : "LayoutChanged()"},
+				{"trigger": "BaseCustomGui.Activate()", "contents" : "Activate()"},
+				{"trigger": "BaseCustomGui.SetDefaultForResEdit()", "contents" : "SetDefaultForResEdit()"},
+				{"trigger": "BaseCustomGui.SetData(data)", "contents" : "SetData(${1:data})"},
+				{"trigger": "BaseCustomGui.GetData()", "contents" : "GetData()"},
+				{"trigger": "BaseCustomGui.SetLayoutMode(mode)", "contents" : "SetLayoutMode(${1:mode})"},
+				{"trigger": "BaseCustomGui.GetLayoutMode()", "contents" : "GetLayoutMode()"},
+				{"trigger": "BaseCustomGui.SupportLayoutSwitch()", "contents" : "SupportLayoutSwitch()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

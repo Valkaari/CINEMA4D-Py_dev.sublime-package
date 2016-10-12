@@ -1,0 +1,8 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.PolygonTag", "contents" : "PolygonTag"},
+				{"trigger": "PolygonTag.__init__(count)", "contents" : "__init__(${1:count})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

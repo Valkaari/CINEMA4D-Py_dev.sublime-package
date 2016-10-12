@@ -1,0 +1,19 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.takesystem.BaseOverrideGroup", "contents" : "BaseOverrideGroup"},
+				{"trigger": "BaseOverrideGroup.GetObjectsInGroup()", "contents" : "GetObjectsInGroup()"},
+				{"trigger": "BaseOverrideGroup.AddToGroup(takeData, node)", "contents" : "AddToGroup(${1:takeData}, ${2:node})"},
+				{"trigger": "BaseOverrideGroup.RemoveFromGroup(takeData, node)", "contents" : "RemoveFromGroup(${1:takeData}, ${2:node})"},
+				{"trigger": "BaseOverrideGroup.AddTag(takeData, type, mat)", "contents" : "AddTag(${1:takeData}, ${2:type}, ${3:mat})"},
+				{"trigger": "BaseOverrideGroup.RemoveTag(takeData, type)", "contents" : "RemoveTag(${1:takeData}, ${2:type})"},
+				{"trigger": "BaseOverrideGroup.GetEditorMode()", "contents" : "GetEditorMode()"},
+				{"trigger": "BaseOverrideGroup.GetRenderMode()", "contents" : "GetRenderMode()"},
+				{"trigger": "BaseOverrideGroup.SetEditorMode(mode)", "contents" : "SetEditorMode(${1:mode})"},
+				{"trigger": "BaseOverrideGroup.SetRenderMode(mode)", "contents" : "SetRenderMode(${1:mode})"},
+				{"trigger": "BaseOverrideGroup.GetTag(type)", "contents" : "GetTag(${1:type})"},
+				{"trigger": "BaseOverrideGroup.GetTake()", "contents" : "GetTake()"},
+				{"trigger": "BaseOverrideGroup.Find(takeData, op)", "contents" : "Find(${1:takeData}, ${2:op})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

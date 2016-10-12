@@ -1,0 +1,26 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.bitmaps.MultipassBitmap", "contents" : "MultipassBitmap"},
+				{"trigger": "MultipassBitmap.AllocWrapper(bmp)", "contents" : "AllocWrapper(${1:bmp})"},
+				{"trigger": "MultipassBitmap.__init__(bx, by, mode)", "contents" : "__init__(${1:bx}, ${2:by}, ${3:mode})"},
+				{"trigger": "MultipassBitmap.DeleteLayer(layer)", "contents" : "DeleteLayer(${1:layer})"},
+				{"trigger": "MultipassBitmap.FindUserID(id[, subid=0])", "contents" : "FindUserID(${1:id} ${2:[, subid=0]})"},
+				{"trigger": "MultipassBitmap.ClearImageData()", "contents" : "ClearImageData()"},
+				{"trigger": "MultipassBitmap.GetPaintBitmap()", "contents" : "GetPaintBitmap()"},
+				{"trigger": "MultipassBitmap.FreeHiddenLayers()", "contents" : "FreeHiddenLayers()"},
+				{"trigger": "MultipassBitmap.AddLayer(insertafter, colormode[, hidden=False])", "contents" : "AddLayer(${1:insertafter}, ${2:colormode} ${3:[, hidden=False]})"},
+				{"trigger": "MultipassBitmap.AddAlpha(insertafter, colormode)", "contents" : "AddAlpha(${1:insertafter}, ${2:colormode})"},
+				{"trigger": "MultipassBitmap.AddFolder(insertafter[, hidden=False])", "contents" : "AddFolder(${1:insertafter} ${2:[, hidden=False]})"},
+				{"trigger": "MultipassBitmap.GetLayers([flags=MPB_GETLAYERS_IMAGE|MPB_GETLAYERS_ALPHA])", "contents" : "GetLayers( ${1:[flags=MPB_GETLAYERS_IMAGE|MPB_GETLAYERS_ALPHA]})"},
+				{"trigger": "MultipassBitmap.GetParameter(id)", "contents" : "GetParameter(${1:id})"},
+				{"trigger": "MultipassBitmap.SetParameter(id, t_data)", "contents" : "SetParameter(${1:id}, ${2:t_data})"},
+				{"trigger": "MultipassBitmap.GetLayerNum(num)", "contents" : "GetLayerNum(${1:num})"},
+				{"trigger": "MultipassBitmap.GetAlphaLayerNum(num)", "contents" : "GetAlphaLayerNum(${1:num})"},
+				{"trigger": "MultipassBitmap.GetHiddenLayerNum(num)", "contents" : "GetHiddenLayerNum(${1:num})"},
+				{"trigger": "MultipassBitmap.GetLayerCount(num)", "contents" : "GetLayerCount(${1:num})"},
+				{"trigger": "MultipassBitmap.GetAlphaLayerCount()", "contents" : "GetAlphaLayerCount()"},
+				{"trigger": "MultipassBitmap.GetHiddenLayerCount()", "contents" : "GetHiddenLayerCount()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

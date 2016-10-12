@@ -1,0 +1,6 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+   				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

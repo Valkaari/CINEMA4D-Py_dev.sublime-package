@@ -1,0 +1,24 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.Vector4d", "contents" : "Vector4d"},
+				{"trigger": "Vector4d.x", "contents" : "x"},
+				{"trigger": "Vector4d.y", "contents" : "y"},
+				{"trigger": "Vector4d.z", "contents" : "z"},
+				{"trigger": "Vector4d.w", "contents" : "w"},
+				{"trigger": "Vector4d.__init__([x[, y, z, w]])", "contents" : "__init__( ${1:[2:x[, 3:y, 4:z, w]}])"},
+				{"trigger": "Vector4d.__str__()", "contents" : "__str__()"},
+				{"trigger": "Vector4d.__getitem__(self, key)", "contents" : "__getitem__(${1:self}, ${2:key})"},
+				{"trigger": "Vector4d.__setitem__(self, key, value)", "contents" : "__setitem__(${1:self}, ${2:key}, ${3:value})"},
+				{"trigger": "Vector4d.__add__(self, other)", "contents" : "__add__(${1:self}, ${2:other})"},
+				{"trigger": "Vector4d.__sub__(self, other)", "contents" : "__sub__(${1:self}, ${2:other})"},
+				{"trigger": "Vector4d.__mul__(self, other)", "contents" : "__mul__(${1:self}, ${2:other})"},
+				{"trigger": "Vector4d.__eq__(self, other)", "contents" : "__eq__(${1:self}, ${2:other})"},
+				{"trigger": "Vector4d.__ne__(self, other)", "contents" : "__ne__(${1:self}, ${2:other})"},
+				{"trigger": "Vector4d.SetZero()", "contents" : "SetZero()"},
+				{"trigger": "Vector4d.Dot(b)", "contents" : "Dot(${1:b})"},
+				{"trigger": "Vector4d.MakeVector3()", "contents" : "MakeVector3()"},
+				{"trigger": "Vector4d.GetVector3()", "contents" : "GetVector3()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

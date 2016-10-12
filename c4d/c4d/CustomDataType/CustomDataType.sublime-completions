@@ -1,7 +1,0 @@
-{
-		"scope" : "source.pythonAPI.cinema4D",
-		"completions" : [
- 				{"trigger": "c4d.CustomDataType", "contents" : "CustomDataType"},
-  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
-		]
-}

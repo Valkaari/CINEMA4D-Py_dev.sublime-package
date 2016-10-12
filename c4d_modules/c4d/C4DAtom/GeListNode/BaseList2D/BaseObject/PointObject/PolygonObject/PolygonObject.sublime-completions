@@ -1,0 +1,30 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.PolygonObject", "contents" : "PolygonObject"},
+				{"trigger": "PolygonObject.__init__(pcnt, vcnt)", "contents" : "__init__(${1:pcnt}, ${2:vcnt})"},
+				{"trigger": "PolygonObject.GetPolygonS()", "contents" : "GetPolygonS()"},
+				{"trigger": "PolygonObject.GetPolygonH()", "contents" : "GetPolygonH()"},
+				{"trigger": "PolygonObject.GetEdgeS()", "contents" : "GetEdgeS()"},
+				{"trigger": "PolygonObject.GetEdgeH()", "contents" : "GetEdgeH()"},
+				{"trigger": "PolygonObject.SetPolygon(id, polygon)", "contents" : "SetPolygon(${1:id}, ${2:polygon})"},
+				{"trigger": "PolygonObject.GetPolygon(id)", "contents" : "GetPolygon(${1:id})"},
+				{"trigger": "PolygonObject.ResizeObject(pcnt[, vcnt=-1])", "contents" : "ResizeObject(${1:pcnt} ${2:[, vcnt=-1]})"},
+				{"trigger": "PolygonObject.GetPhongBreak()", "contents" : "GetPhongBreak()"},
+				{"trigger": "PolygonObject.GetPolygonTranslationMap()", "contents" : "GetPolygonTranslationMap()"},
+				{"trigger": "PolygonObject.GetAllPolygons()", "contents" : "GetAllPolygons()"},
+				{"trigger": "PolygonObject.CreatePhongNormals()", "contents" : "CreatePhongNormals()"},
+				{"trigger": "PolygonObject.GetPolygonCount()", "contents" : "GetPolygonCount()"},
+				{"trigger": "PolygonObject.GetPolygonR()", "contents" : "GetPolygonR()"},
+				{"trigger": "PolygonObject.GetPolygonW()", "contents" : "GetPolygonW()"},
+				{"trigger": "PolygonObject.GetSelectedEdges(e, ltype)", "contents" : "GetSelectedEdges(${1:e}, ${2:ltype})"},
+				{"trigger": "PolygonObject.SetSelectedEdges(e, pSel, ltype)", "contents" : "SetSelectedEdges(${1:e}, ${2:pSel}, ${3:ltype})"},
+				{"trigger": "PolygonObject.GetNgonCount()", "contents" : "GetNgonCount()"},
+				{"trigger": "PolygonObject.GetSelectedNgons(sel)", "contents" : "GetSelectedNgons(${1:sel})"},
+				{"trigger": "PolygonObject.GetHiddenNgons(sel)", "contents" : "GetHiddenNgons(${1:sel})"},
+				{"trigger": "PolygonObject.ValidateEdgeSelection(sel)", "contents" : "ValidateEdgeSelection(${1:sel})"},
+				{"trigger": "PolygonObject.GetEdgeSelection(sel, type)", "contents" : "GetEdgeSelection(${1:sel}, ${2:type})"},
+				{"trigger": "PolygonObject.GetNgonEdgesCompact()", "contents" : "GetNgonEdgesCompact()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

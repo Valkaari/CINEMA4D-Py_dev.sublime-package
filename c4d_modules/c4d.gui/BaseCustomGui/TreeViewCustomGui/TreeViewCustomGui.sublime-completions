@@ -1,0 +1,18 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.gui.TreeViewCustomGui", "contents" : "TreeViewCustomGui"},
+				{"trigger": "TreeViewCustomGui.SetRoot(root, functions, userdata)", "contents" : "SetRoot(${1:root}, ${2:functions}, ${3:userdata})"},
+				{"trigger": "TreeViewCustomGui.SetLayout(columns, data)", "contents" : "SetLayout(${1:columns}, ${2:data})"},
+				{"trigger": "TreeViewCustomGui.Refresh()", "contents" : "Refresh()"},
+				{"trigger": "TreeViewCustomGui.SetHeaderText(lColumnID, str)", "contents" : "SetHeaderText(${1:lColumnID}, ${2:str})"},
+				{"trigger": "TreeViewCustomGui.MakeVisible(pObj)", "contents" : "MakeVisible(${1:pObj})"},
+				{"trigger": "TreeViewCustomGui.ShowObject(pObj)", "contents" : "ShowObject(${1:pObj})"},
+				{"trigger": "TreeViewCustomGui.GetVisibleScrollArea()", "contents" : "GetVisibleScrollArea()"},
+				{"trigger": "TreeViewCustomGui.SetVisibleScrollArea(x1, y1, x2, y2)", "contents" : "SetVisibleScrollArea(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2})"},
+				{"trigger": "TreeViewCustomGui.GetVisibleLineCount()", "contents" : "GetVisibleLineCount()"},
+				{"trigger": "TreeViewCustomGui.SetFocusItem(pItem)", "contents" : "SetFocusItem(${1:pItem})"},
+				{"trigger": "TreeViewCustomGui.IsFocusItem(pItem)", "contents" : "IsFocusItem(${1:pItem})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

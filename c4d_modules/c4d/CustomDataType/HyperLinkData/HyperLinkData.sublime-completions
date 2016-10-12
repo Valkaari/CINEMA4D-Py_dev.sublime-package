@@ -1,0 +1,10 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.HyperLinkData", "contents" : "HyperLinkData"},
+				{"trigger": "HyperLinkData.__init__([v])", "contents" : "__init__( ${1:[v]})"},
+				{"trigger": "HyperLinkData.SetStrings(strLink, strText)", "contents" : "SetStrings(${1:strLink}, ${2:strText})"},
+				{"trigger": "HyperLinkData.GetStrings()", "contents" : "GetStrings()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

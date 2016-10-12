@@ -1,0 +1,20 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.VertexColorTag", "contents" : "VertexColorTag"},
+				{"trigger": "VertexColorTag.__init__(count)", "contents" : "__init__(${1:count})"},
+				{"trigger": "VertexColorTag.GetDataAddressR()", "contents" : "GetDataAddressR()"},
+				{"trigger": "VertexColorTag.GetDataAddressW()", "contents" : "GetDataAddressW()"},
+				{"trigger": "VertexColorTag.IsPerPointColor()", "contents" : "IsPerPointColor()"},
+				{"trigger": "VertexColorTag.SetPerPointMode(perPointColor)", "contents" : "SetPerPointMode(${1:perPointColor})"},
+				{"trigger": "VertexColorTag.GetPolygon(data, i)", "contents" : "GetPolygon(${1:data}, ${2:i})"},
+				{"trigger": "VertexColorTag.SetPolygon(data, i, polygon)", "contents" : "SetPolygon(${1:data}, ${2:i}, ${3:polygon})"},
+				{"trigger": "VertexColorTag.GetPoint(data, nb, vadr, pIndex)", "contents" : "GetPoint(${1:data}, ${2:nb}, ${3:vadr}, ${4:pIndex})"},
+				{"trigger": "VertexColorTag.SetPoint(data, nb, vadr, pIndex, color)", "contents" : "SetPoint(${1:data}, ${2:nb}, ${3:vadr}, ${4:pIndex}, ${5:color})"},
+				{"trigger": "VertexColorTag.GetColor(data, nb, vadr, pIndex)", "contents" : "GetColor(${1:data}, ${2:nb}, ${3:vadr}, ${4:pIndex})"},
+				{"trigger": "VertexColorTag.SetColor(data, nb, vadr, pIndex, color)", "contents" : "SetColor(${1:data}, ${2:nb}, ${3:vadr}, ${4:pIndex}, ${5:color})"},
+				{"trigger": "VertexColorTag.GetAlpha(data, nb, vadr, pIndex)", "contents" : "GetAlpha(${1:data}, ${2:nb}, ${3:vadr}, ${4:pIndex})"},
+				{"trigger": "VertexColorTag.SetAlpha(data, nb, vadr, pIndex, value)", "contents" : "SetAlpha(${1:data}, ${2:nb}, ${3:vadr}, ${4:pIndex}, ${5:value})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

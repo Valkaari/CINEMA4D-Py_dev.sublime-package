@@ -1,0 +1,10 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.motiontracker.MtDataSdk", "contents" : "MtDataSdk"},
+				{"trigger": "MtDataSdk.GetNormalisedPosition()", "contents" : "GetNormalisedPosition()"},
+				{"trigger": "MtDataSdk.GetPixelPosition(footageData, originalRes)", "contents" : "GetPixelPosition(${1:footageData}, ${2:originalRes})"},
+				{"trigger": "MtDataSdk.GetCameraSpaceDirection(focalLength, sensorWidth)", "contents" : "GetCameraSpaceDirection(${1:focalLength}, ${2:sensorWidth})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

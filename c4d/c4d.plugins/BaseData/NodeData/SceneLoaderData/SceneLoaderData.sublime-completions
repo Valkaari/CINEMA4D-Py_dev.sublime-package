@@ -1,9 +1,0 @@
-{
-		"scope" : "source.pythonAPI.cinema4D",
-		"completions" : [
- 				{"trigger": "c4d.plugins.SceneLoaderData", "contents" : "SceneLoaderData"},
-				{"trigger": "SceneLoaderData.Identify(self, node, name, probe, size)", "contents" : "Identify(${1:self}, ${2:node}, ${3:name}, ${4:probe}, ${5:size})"},
-				{"trigger": "SceneLoaderData.Load(self, node, name, doc, filterflags, error, bt)", "contents" : "Load(${1:self}, ${2:node}, ${3:name}, ${4:doc}, ${5:filterflags}, ${6:error}, ${7:bt})"},
-  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
-		]
-}

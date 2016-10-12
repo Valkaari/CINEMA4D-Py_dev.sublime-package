@@ -1,0 +1,21 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.BaseTime", "contents" : "BaseTime"},
+				{"trigger": "BaseTime.__init__([z[, n]])", "contents" : "__init__( ${1:[2:z[, n]}])"},
+				{"trigger": "BaseTime.__cmp__(self, other)", "contents" : "__cmp__(${1:self}, ${2:other})"},
+				{"trigger": "BaseTime.__add__(self, other)", "contents" : "__add__(${1:self}, ${2:other})"},
+				{"trigger": "BaseTime.__sub__(self, other)", "contents" : "__sub__(${1:self}, ${2:other})"},
+				{"trigger": "BaseTime.__mul__(self, other)", "contents" : "__mul__(${1:self}, ${2:other})"},
+				{"trigger": "BaseTime.__div__(self, other)", "contents" : "__div__(${1:self}, ${2:other})"},
+				{"trigger": "BaseTime.GetFrame(fps)", "contents" : "GetFrame(${1:fps})"},
+				{"trigger": "BaseTime.Quantize(fps)", "contents" : "Quantize(${1:fps})"},
+				{"trigger": "BaseTime.SetNumerator(r)", "contents" : "SetNumerator(${1:r})"},
+				{"trigger": "BaseTime.GetNumerator()", "contents" : "GetNumerator()"},
+				{"trigger": "BaseTime.SetDenominator(r)", "contents" : "SetDenominator(${1:r})"},
+				{"trigger": "BaseTime.GetDenominator()", "contents" : "GetDenominator()"},
+				{"trigger": "BaseTime.Get()", "contents" : "Get()"},
+				{"trigger": "BaseTime.TimeDif()", "contents" : "TimeDif()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

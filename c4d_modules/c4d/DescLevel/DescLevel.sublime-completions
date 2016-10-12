@@ -1,0 +1,13 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.DescLevel", "contents" : "DescLevel"},
+				{"trigger": "DescLevel.id", "contents" : "id"},
+				{"trigger": "DescLevel.dtype", "contents" : "dtype"},
+				{"trigger": "DescLevel.creator", "contents" : "creator"},
+				{"trigger": "DescLevel.__init__(t_id[, t_datatype, t_creator])", "contents" : "__init__(${1:t_id} ${2:[, 3:t_datatype, t_creator]})"},
+				{"trigger": "DescLevel.__eq__(self, other)", "contents" : "__eq__(${1:self}, ${2:other})"},
+				{"trigger": "DescLevel.__ne__(self, other)", "contents" : "__ne__(${1:self}, ${2:other})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

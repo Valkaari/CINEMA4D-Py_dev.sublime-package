@@ -1,0 +1,33 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.CKey", "contents" : "CKey"},
+				{"trigger": "CKey.GetTime()", "contents" : "GetTime()"},
+				{"trigger": "CKey.GetTimeLeft()", "contents" : "GetTimeLeft()"},
+				{"trigger": "CKey.GetTimeRight()", "contents" : "GetTimeRight()"},
+				{"trigger": "CKey.GetValue()", "contents" : "GetValue()"},
+				{"trigger": "CKey.GetValueLeft()", "contents" : "GetValueLeft()"},
+				{"trigger": "CKey.GetValueRight()", "contents" : "GetValueRight()"},
+				{"trigger": "CKey.SetValue(seq, v)", "contents" : "SetValue(${1:seq}, ${2:v})"},
+				{"trigger": "CKey.SetValueLeft(seq, v)", "contents" : "SetValueLeft(${1:seq}, ${2:v})"},
+				{"trigger": "CKey.SetValueRight(seq, v)", "contents" : "SetValueRight(${1:seq}, ${2:v})"},
+				{"trigger": "CKey.SetTime(seq, t)", "contents" : "SetTime(${1:seq}, ${2:t})"},
+				{"trigger": "CKey.SetTimeLeft(seq, t)", "contents" : "SetTimeLeft(${1:seq}, ${2:t})"},
+				{"trigger": "CKey.SetTimeRight(seq, t)", "contents" : "SetTimeRight(${1:seq}, ${2:t})"},
+				{"trigger": "CKey.SetInterpolation(seq, inter)", "contents" : "SetInterpolation(${1:seq}, ${2:inter})"},
+				{"trigger": "CKey.GetInterpolation()", "contents" : "GetInterpolation()"},
+				{"trigger": "CKey.SetQuatInterpolation(seq, inter[, bUndo=True])", "contents" : "SetQuatInterpolation(${1:seq}, ${2:inter} ${3:[, bUndo=True]})"},
+				{"trigger": "CKey.GetQuatInterpolation()", "contents" : "GetQuatInterpolation()"},
+				{"trigger": "CKey.GetTrack()", "contents" : "GetTrack()"},
+				{"trigger": "CKey.GetCurve()", "contents" : "GetCurve()"},
+				{"trigger": "CKey.FlushData()", "contents" : "FlushData()"},
+				{"trigger": "CKey.SetGeData(seq, d)", "contents" : "SetGeData(${1:seq}, ${2:d})"},
+				{"trigger": "CKey.GetGeData()", "contents" : "GetGeData()"},
+				{"trigger": "CKey.GetClone([trans=None])", "contents" : "GetClone( ${1:[trans=None]})"},
+				{"trigger": "CKey.GetAutomaticTangentMode()", "contents" : "GetAutomaticTangentMode()"},
+				{"trigger": "CKey.SetAutomaticTangentMode(seq, autoMode)", "contents" : "SetAutomaticTangentMode(${1:seq}, ${2:autoMode})"},
+				{"trigger": "CKey.SetTimeLeftAdjustValue(seq, t)", "contents" : "SetTimeLeftAdjustValue(${1:seq}, ${2:t})"},
+				{"trigger": "CKey.SetTimeRightAdjustValue(seq, t)", "contents" : "SetTimeRightAdjustValue(${1:seq}, ${2:t})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

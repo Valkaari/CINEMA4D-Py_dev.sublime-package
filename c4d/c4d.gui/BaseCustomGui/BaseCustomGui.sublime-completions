@@ -1,7 +1,0 @@
-{
-		"scope" : "source.pythonAPI.cinema4D",
-		"completions" : [
- 				{"trigger": "c4d.gui.BaseCustomGui", "contents" : "BaseCustomGui"},
-  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
-		]
-}
