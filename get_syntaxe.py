@@ -3,14 +3,16 @@ import sys, os
 import shutil
 import re
 
-class Stupid():
+import time, argparse
+
+class DOGGY():
 
 	pythonSDKDir = ""
 	exportDir = ""
 	syntaxes = ""
-	def __init__(self):
-		self.pythonSDKDir = "/Volumes/Stock_01/Users/valkaari/Documents/Developpement/HTML SDK/CINEMA4DR16021PYTHONSDKHTML20141003/help/modules/c4d/index.html"
-		self.exportDir = "/Volumes/Stock_01/Users/valkaari/Desktop/c4dPython"
+	def __init__(self, inputDirectory, outputDirectory):
+		self.pythonSDKDir = inputDirectory
+		self.exportDir = outputDirectory
 
 	def getSyntax(self, file):
 		#return a string
@@ -45,7 +47,10 @@ class Stupid():
 
 		return syntax
 
-	def createSyntaxes(self, folder):
+	def createSyntaxes(self, folder=""):
+		if folder == "":
+			folder = self.pythonSDKDir
+
 		dirList=os.listdir(folder)
 
 		for fname in dirList:
@@ -57,9 +62,9 @@ class Stupid():
 
 
 
-def main():
-	dummy = Stupid()
-	dummy.createSyntaxes("/Volumes/Stock_01/Users/valkaari/Documents/Developpement/HTML SDK/CINEMA4DR16021PYTHONSDKHTML20141003/help/modules")
+def main(args):
+	dummy = DOGGY(args.inputDirectory, args.outputDirectory)
+	dummy.createSyntaxes()
 	print dummy.syntaxes
 
 
@@ -67,4 +72,11 @@ def main():
     
     
 if __name__=='__main__':
-    main()
+	start_time = time.time()
+	parser = argparse.ArgumentParser(description='Create Sublime Package from Cinema4D\'s documentation' )
+	parser.add_argument("inputDirectory",help = "the cinema4D's python SDK help directory doc->html->modules")
+	parser.add_argument("outputDirectory", help = "The directory to store the result")
+	args = parser.parse_args()   
+
+	print ("done in %s seconds" % (time.time() - start_time))
+	main(args)
