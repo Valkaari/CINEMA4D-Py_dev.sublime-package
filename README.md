@@ -9,3 +9,6 @@ https://www.sublimetext.com/
 
 
 Once the syntaxe selected start typing "cinema" to use basic templates.
+
+
+Updated to R18 documentation.
