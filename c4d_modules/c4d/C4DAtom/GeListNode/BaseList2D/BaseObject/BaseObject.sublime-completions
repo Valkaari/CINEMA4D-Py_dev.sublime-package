@@ -77,7 +77,7 @@
 				{"trigger": "BaseObject.IsQuaternionRotationMode()", "contents" : "IsQuaternionRotationMode()"},
 				{"trigger": "BaseObject.SynchronizeVectorTrackKeys(vectorTrackID, bUndo[, startRange=c4d.BaseTime(-108000, 1), endRange=c4d.BaseTime(108000, 1)])", "contents" : "BaseTime(${1:108000}, ${2:1})])"},
 				{"trigger": "BaseObject.FindBestEulerAngle(rotationTrackID, adjustTangent, undo[, startRange=c4d.BaseTime(-108000, 1), endRange=c4d.BaseTime(108000, 1)])", "contents" : "BaseTime(${1:108000}, ${2:1})])"},
-				{"trigger": "BaseObject.EvaluateSynchronizedRotation(time, flags)", "contents" : "EvaluateSynchronizedRotation(${1:time}, ${2:flags})"},
+				{"trigger": "BaseObject.EvaluateSynchronizedRotation(time, flags[, applyRotation=True])", "contents" : "EvaluateSynchronizedRotation(${1:time}, ${2:flags} ${3:[, applyRotation=True]})"},
 				{"trigger": "BaseObject.GetVectorTracks(id)", "contents" : "GetVectorTracks(${1:id})"},
 				{"trigger": "BaseObject.GetVectorCurves(curveToSearch)", "contents" : "GetVectorCurves(${1:curveToSearch})"},
   				{ "trigger": "____zdummy", "contents": "_____zdummy" } 

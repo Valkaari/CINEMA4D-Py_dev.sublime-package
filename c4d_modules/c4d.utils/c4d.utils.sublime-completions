@@ -2,9 +2,19 @@
 		"scope" : "source.pythonAPI.cinema4D",
 		"completions" : [
  				{"trigger": "c4d.utils.SendModelingCommand(command, list[, mode=MODELINGCOMMANDMODE_ALL][, bc=None][, doc=None][, flags=MODELINGCOMMANDFLAGS_0])", "contents" : "SendModelingCommand(${1:command}, ${2:list} ${3:[, mode=MODELINGCOMMANDMODE_ALL]} ${4:[, bc=None]} ${5:[, doc=None]} ${6:[, flags=MODELINGCOMMANDFLAGS_0]})"},
+				{"trigger": "c4d.utils.DisjointMesh(op)", "contents" : "DisjointMesh(${1:op})"},
+				{"trigger": "c4d.utils.FitCurve(padr, error)", "contents" : "FitCurve(${1:padr}, ${2:error})"},
+				{"trigger": "c4d.utils.CheckDisplayFilter(op, filter)", "contents" : "CheckDisplayFilter(${1:op}, ${2:filter})"},
+				{"trigger": "c4d.utils.CalculateVisiblePoints(bd, op)", "contents" : "CalculateVisiblePoints(${1:bd}, ${2:op})"},
+				{"trigger": "c4d.utils.GenerateUVW(op, opmg, tp, texopmg[, view=None])", "contents" : "GenerateUVW(${1:op}, ${2:opmg}, ${3:tp}, ${4:texopmg} ${5:[, view=None]})"},
+				{"trigger": "c4d.utils.GetBBox(pObj, mg)", "contents" : "GetBBox(${1:pObj}, ${2:mg})"},
+				{"trigger": "c4d.utils.FormatNumber(val, format, fps[, bUnit=True])", "contents" : "FormatNumber(${1:val}, ${2:format}, ${3:fps} ${4:[, bUnit=True]})"},
+				{"trigger": "c4d.utils.StringToNumber(text, format, fps)", "contents" : "StringToNumber(${1:text}, ${2:format}, ${3:fps})"},
 				{"trigger": "c4d.utils.GetAngle(v1, v2)", "contents" : "GetAngle(${1:v1}, ${2:v2})"},
 				{"trigger": "c4d.utils.RangeMap(value, mininput, maxinput, minoutput, maxoutput, clampval[, curve])", "contents" : "RangeMap(${1:value}, ${2:mininput}, ${3:maxinput}, ${4:minoutput}, ${5:maxoutput}, ${6:clampval} ${7:[, curve]})"},
+				{"trigger": "c4d.utils.DegToRad(d)", "contents" : "DegToRad(${1:d})"},
 				{"trigger": "c4d.utils.Rad(d)", "contents" : "Rad(${1:d})"},
+				{"trigger": "c4d.utils.RadToDeg(r)", "contents" : "RadToDeg(${1:r})"},
 				{"trigger": "c4d.utils.Deg(r)", "contents" : "Deg(${1:r})"},
 				{"trigger": "c4d.utils.MixVec(v1, v2, t)", "contents" : "MixVec(${1:v1}, ${2:v2}, ${3:t})"},
 				{"trigger": "c4d.utils.MixNum(v1, v2, t)", "contents" : "MixNum(${1:v1}, ${2:v2}, ${3:t})"},
@@ -74,7 +84,7 @@
 				{"trigger": "c4d.utils.CircleLineIntersection(linePoint1, linePoint2, circleCenter, circleRadius)", "contents" : "CircleLineIntersection(${1:linePoint1}, ${2:linePoint2}, ${3:circleCenter}, ${4:circleRadius})"},
 				{"trigger": "c4d.utils.PointLineSegmentDistance(segmentPoint1, segmentPoint2, pos)", "contents" : "PointLineSegmentDistance(${1:segmentPoint1}, ${2:segmentPoint2}, ${3:pos})"},
 				{"trigger": "c4d.utils.PointLineSegmentDistance2D(segmentPoint1, segmentPoint2, pos)", "contents" : "PointLineSegmentDistance2D(${1:segmentPoint1}, ${2:segmentPoint2}, ${3:pos})"},
-				{"trigger": "c4d.utils.InitBakeTexture(doc, textags, texuvws, destuvws, bc, th)", "contents" : "InitBakeTexture(${1:doc}, ${2:textags}, ${3:texuvws}, ${4:destuvws}, ${5:bc}, ${6:th})"},
+				{"trigger": "c4d.utils.InitBakeTexture(doc, textags, texuvws, destuvws, bc[, th=None])", "contents" : "InitBakeTexture(${1:doc}, ${2:textags}, ${3:texuvws}, ${4:destuvws}, ${5:bc} ${6:[, th=None]})"},
 				{"trigger": "c4d.utils.BakeTexture(doc, data, bmp, th, hook)", "contents" : "BakeTexture(${1:doc}, ${2:data}, ${3:bmp}, ${4:th}, ${5:hook})"},
   				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
 		]

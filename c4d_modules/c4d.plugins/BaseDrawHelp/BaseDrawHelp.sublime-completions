@@ -7,6 +7,7 @@
 				{"trigger": "BaseDrawHelp.GetActiveTag()", "contents" : "GetActiveTag()"},
 				{"trigger": "BaseDrawHelp.GetMg()", "contents" : "GetMg()"},
 				{"trigger": "BaseDrawHelp.SetMg(mg)", "contents" : "SetMg(${1:mg})"},
+				{"trigger": "BaseDrawHelp.GetDisplay()", "contents" : "GetDisplay()"},
 				{"trigger": "BaseDrawHelp.GetViewSchedulerFlags()", "contents" : "GetViewSchedulerFlags()"},
 				{"trigger": "BaseDrawHelp.IsActive()", "contents" : "IsActive()"},
 				{"trigger": "BaseDrawHelp.IsHighlight()", "contents" : "IsHighlight()"},

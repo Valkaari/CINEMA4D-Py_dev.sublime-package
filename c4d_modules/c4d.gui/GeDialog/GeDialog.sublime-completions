@@ -46,6 +46,7 @@
 				{"trigger": "GeDialog.AttachUserArea(ua, id[, userareaflags=USERAREA_COREMESSAGE])", "contents" : "AttachUserArea(${1:ua}, ${2:id} ${3:[, userareaflags=USERAREA_COREMESSAGE]})"},
 				{"trigger": "GeDialog.AddUserArea(id, flags[, initw=0][, inith=0])", "contents" : "AddUserArea(${1:id}, ${2:flags} ${3:[, initw=0]} ${4:[, inith=0]})"},
 				{"trigger": "GeDialog.AddDlgGroup(type)", "contents" : "AddDlgGroup(${1:type})"},
+				{"trigger": "GeDialog.GetItemDim(id)", "contents" : "GetItemDim(${1:id})"},
 				{"trigger": "GeDialog.GroupBeginInMenuLine()", "contents" : "GroupBeginInMenuLine()"},
 				{"trigger": "GeDialog.GroupWeightsSave(id)", "contents" : "GroupWeightsSave(${1:id})"},
 				{"trigger": "GeDialog.GroupWeightsLoad(id, weights)", "contents" : "GroupWeightsLoad(${1:id}, ${2:weights})"},

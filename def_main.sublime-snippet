@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+def main():
+	${1:pass}
+
+
+if __name__=='__main__':
+	main()
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>main def</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.pythonAPI.cinema4D</scope>
+	<description> Create default main function</description>
+
+</snippet>

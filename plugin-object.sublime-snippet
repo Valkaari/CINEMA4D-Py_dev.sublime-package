@@ -86,7 +86,7 @@ if __name__ == "__main__":
     plugins.RegisterObjectPlugin(id=PLUGIN_ID, str="Py-$1",
                                 g=$1,
                                 description="$2", icon=bmp,
-                                info=c4d.OBJECT_MODIFIER)
+                                info=c4d.OBJECT_GENERATOR)
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>cinemaPlugin Object Polygon</tabTrigger>

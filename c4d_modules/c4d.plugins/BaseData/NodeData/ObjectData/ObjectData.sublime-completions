@@ -14,9 +14,9 @@
 				{"trigger": "ObjectData.AddToExecution(self, op, list)", "contents" : "AddToExecution(${1:self}, ${2:op}, ${3:list})"},
 				{"trigger": "ObjectData.Execute(self, op, doc, bt, priority, flags)", "contents" : "Execute(${1:self}, ${2:op}, ${3:doc}, ${4:bt}, ${5:priority}, ${6:flags})"},
 				{"trigger": "ObjectData.ModifyParticles(self, op, pp, ss, pcnt, diff)", "contents" : "ModifyParticles(${1:self}, ${2:op}, ${3:pp}, ${4:ss}, ${5:pcnt}, ${6:diff})"},
-				{"trigger": "ObjectData.GetHandleCount(op)", "contents" : "GetHandleCount(${1:op})"},
-				{"trigger": "ObjectData.GetHandle(op, i, info)", "contents" : "GetHandle(${1:op}, ${2:i}, ${3:info})"},
-				{"trigger": "ObjectData.SetHandle(op, i, p, info)", "contents" : "SetHandle(${1:op}, ${2:i}, ${3:p}, ${4:info})"},
+				{"trigger": "ObjectData.GetHandleCount(self, op)", "contents" : "GetHandleCount(${1:self}, ${2:op})"},
+				{"trigger": "ObjectData.GetHandle(self, op, i, info)", "contents" : "GetHandle(${1:self}, ${2:op}, ${3:i}, ${4:info})"},
+				{"trigger": "ObjectData.SetHandle(self, op, i, p, info)", "contents" : "SetHandle(${1:self}, ${2:op}, ${3:i}, ${4:p}, ${5:info})"},
   				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
 		]
 }

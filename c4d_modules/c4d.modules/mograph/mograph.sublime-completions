@@ -3,7 +3,9 @@
 		"completions" : [
  				{"trigger": "c4d.modules.mograph.GeGetMoData(op)", "contents" : "GeGetMoData(${1:op})"},
 				{"trigger": "c4d.modules.mograph.GeGetMoDataSelection(op)", "contents" : "GeGetMoDataSelection(${1:op})"},
+				{"trigger": "c4d.modules.mograph.GeSetMoDataSelection(op, selection)", "contents" : "GeSetMoDataSelection(${1:op}, ${2:selection})"},
 				{"trigger": "c4d.modules.mograph.GeGetMoDataWeights(op)", "contents" : "GeGetMoDataWeights(${1:op})"},
+				{"trigger": "c4d.modules.mograph.GeSetMoDataWeights(op, weights)", "contents" : "GeSetMoDataWeights(${1:op}, ${2:weights})"},
 				{"trigger": "c4d.modules.mograph.GetMoDataDefault(id)", "contents" : "GetMoDataDefault(${1:id})"},
 				{"trigger": "c4d.modules.mograph.GetMoDataDefaultType(id)", "contents" : "GetMoDataDefaultType(${1:id})"},
   				{ "trigger": "____zdummy", "contents": "_____zdummy" } 

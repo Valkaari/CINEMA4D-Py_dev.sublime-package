@@ -4,7 +4,7 @@
  				{"trigger": "c4d.Description", "contents" : "Description"},
 				{"trigger": "Description.__iter__(bc, id, groupid)", "contents" : "__iter__(${1:bc}, ${2:id}, ${3:groupid})"},
 				{"trigger": "Description.LoadDescription(id)", "contents" : "LoadDescription(${1:id})"},
-				{"trigger": "Description.GetParameter(id)", "contents" : "GetParameter(${1:id})"},
+				{"trigger": "Description.GetParameter(id, ar)", "contents" : "GetParameter(${1:id}, ${2:ar})"},
 				{"trigger": "Description.GetParameterI(id, ar)", "contents" : "GetParameterI(${1:id}, ${2:ar})"},
 				{"trigger": "Description.SetParameter(id, param, groupid)", "contents" : "SetParameter(${1:id}, ${2:param}, ${3:groupid})"},
 				{"trigger": "Description.CreatePopupMenu()", "contents" : "CreatePopupMenu()"},
