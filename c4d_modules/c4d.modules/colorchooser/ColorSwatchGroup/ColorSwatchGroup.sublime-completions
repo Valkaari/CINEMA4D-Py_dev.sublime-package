@@ -1,0 +1,29 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.colorchooser.ColorSwatchGroup", "contents" : "ColorSwatchGroup"},
+				{"trigger": "ColorSwatchGroup.__init__([name=\"\", selected=False, colors=None])", "contents" : "__init__( ${1:[name=\"\", selected=2:False, colors=None]})"},
+				{"trigger": "ColorSwatchGroup.Merge(group)", "contents" : "Merge(${1:group})"},
+				{"trigger": "ColorSwatchGroup.CopyFrom()", "contents" : "CopyFrom()"},
+				{"trigger": "ColorSwatchGroup.GetName()", "contents" : "GetName()"},
+				{"trigger": "ColorSwatchGroup.SetName(name)", "contents" : "SetName(${1:name})"},
+				{"trigger": "ColorSwatchGroup.GetColorCount()", "contents" : "GetColorCount()"},
+				{"trigger": "ColorSwatchGroup.GetColor(index)", "contents" : "GetColor(${1:index})"},
+				{"trigger": "ColorSwatchGroup.GetColors([selectedOnly=False])", "contents" : "GetColors( ${1:[selectedOnly=False]})"},
+				{"trigger": "ColorSwatchGroup.SetColor(index, color, selected)", "contents" : "SetColor(${1:index}, ${2:color}, ${3:selected})"},
+				{"trigger": "ColorSwatchGroup.AddColor(color[, selected=False, insertAt=-1])", "contents" : "AddColor(${1:color} ${2:[, selected=3:False, insertAt=-1]})"},
+				{"trigger": "ColorSwatchGroup.AddColors(colors[, selected=False, merge=True, insertAt=-1])", "contents" : "AddColors(${1:colors} ${2:[, selected=3:False, merge=4:True, insertAt=-1]})"},
+				{"trigger": "ColorSwatchGroup.Reset()", "contents" : "Reset()"},
+				{"trigger": "ColorSwatchGroup.RemoveColor(index[, removeCount=1])", "contents" : "RemoveColor(${1:index} ${2:[, removeCount=1]})"},
+				{"trigger": "ColorSwatchGroup.RemoveSelectedColors()", "contents" : "RemoveSelectedColors()"},
+				{"trigger": "ColorSwatchGroup.HasDuplicatedColors()", "contents" : "HasDuplicatedColors()"},
+				{"trigger": "ColorSwatchGroup.RemoveDuplicatedColors()", "contents" : "RemoveDuplicatedColors()"},
+				{"trigger": "ColorSwatchGroup.InvertSelection()", "contents" : "InvertSelection()"},
+				{"trigger": "ColorSwatchGroup.SelectColor(index, selected)", "contents" : "SelectColor(${1:index}, ${2:selected})"},
+				{"trigger": "ColorSwatchGroup.IsColorSelected(index)", "contents" : "IsColorSelected(${1:index})"},
+				{"trigger": "ColorSwatchGroup.SelectGroup(select)", "contents" : "SelectGroup(${1:select})"},
+				{"trigger": "ColorSwatchGroup.IsGroupSelected()", "contents" : "IsGroupSelected()"},
+				{"trigger": "ColorSwatchGroup.SortColors()", "contents" : "SortColors()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

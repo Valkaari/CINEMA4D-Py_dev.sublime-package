@@ -1,9 +1,0 @@
-{
-		"scope" : "source.pythonAPI.cinema4D",
-		"completions" : [
- 				{"trigger": "c4d.PLAData", "contents" : "PLAData"},
-				{"trigger": "PLAData.__init__([v])", "contents" : "__init__( ${1:[v]})"},
-				{"trigger": "PLAData.GetVariableTags()", "contents" : "GetVariableTags()"},
-  				{ "trigger": "____zzzzzdummy", "contents": "_____zzzzzdummy" } 
-		]
-}

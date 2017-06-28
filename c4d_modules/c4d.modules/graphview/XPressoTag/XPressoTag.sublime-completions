@@ -1,0 +1,9 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.graphview.XPressoTag", "contents" : "XPressoTag"},
+				{"trigger": "XPressoTag.__init__()", "contents" : "__init__()"},
+				{"trigger": "XPressoTag.GetNodeMaster()", "contents" : "GetNodeMaster()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

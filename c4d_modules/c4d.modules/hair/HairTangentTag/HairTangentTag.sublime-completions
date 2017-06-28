@@ -1,0 +1,14 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.hair.HairTangentTag", "contents" : "HairTangentTag"},
+				{"trigger": "HairTangentTag.__init__()", "contents" : "__init__()"},
+				{"trigger": "HairTangentTag.GetPolygonsSegments()", "contents" : "GetPolygonsSegments()"},
+				{"trigger": "HairTangentTag.GetPointCount()", "contents" : "GetPointCount()"},
+				{"trigger": "HairTangentTag.GetCount()", "contents" : "GetCount()"},
+				{"trigger": "HairTangentTag.GetSegments()", "contents" : "GetSegments()"},
+				{"trigger": "HairTangentTag.GetTangents()", "contents" : "GetTangents()"},
+				{"trigger": "HairTangentTag.SetTangent(i, p)", "contents" : "SetTangent(${1:i}, ${2:p})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

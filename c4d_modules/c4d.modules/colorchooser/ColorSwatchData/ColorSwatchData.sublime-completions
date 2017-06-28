@@ -1,0 +1,30 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.colorchooser.ColorSwatchData", "contents" : "ColorSwatchData"},
+				{"trigger": "ColorSwatchData.__init__([doc=None, global=False])", "contents" : "__init__( ${1:[doc=2:None, global=False]})"},
+				{"trigger": "ColorSwatchData.LoadGlobalGroup()", "contents" : "LoadGlobalGroup()"},
+				{"trigger": "ColorSwatchData.SaveGlobalGroup()", "contents" : "SaveGlobalGroup()"},
+				{"trigger": "ColorSwatchData.LoadDefaultGlobalGroup([ignoreFile=False])", "contents" : "LoadDefaultGlobalGroup( ${1:[ignoreFile=False]})"},
+				{"trigger": "ColorSwatchData.SaveDefaultGlobalGroup()", "contents" : "SaveDefaultGlobalGroup()"},
+				{"trigger": "ColorSwatchData.GetGlobalGroup()", "contents" : "GetGlobalGroup()"},
+				{"trigger": "ColorSwatchData.SetGlobalGroup(group)", "contents" : "SetGlobalGroup(${1:group})"},
+				{"trigger": "ColorSwatchData.Load(doc[, merge=False])", "contents" : "Load(${1:doc} ${2:[, merge=False]})"},
+				{"trigger": "ColorSwatchData.Save(doc)", "contents" : "Save(${1:doc})"},
+				{"trigger": "ColorSwatchData.LoadPresetByName(name[, merge=False])", "contents" : "LoadPresetByName(${1:name} ${2:[, merge=False]})"},
+				{"trigger": "ColorSwatchData.LoadPresetByURL(url, merge)", "contents" : "LoadPresetByURL(${1:url}, ${2:merge})"},
+				{"trigger": "ColorSwatchData.SavePresetByName(name[, author=\"\", info=\"\", forceOverwrite=False])", "contents" : "SavePresetByName(${1:name} ${2:[, author=\"\", info=\"\", forceOverwrite=False]})"},
+				{"trigger": "ColorSwatchData.SavePresetByURL(url[, author=\"\", info=\"\", forceOverwrite=False])", "contents" : "SavePresetByURL(${1:url} ${2:[, author=\"\", info=\"\", forceOverwrite=False]})"},
+				{"trigger": "ColorSwatchData.Merge(data)", "contents" : "Merge(${1:data})"},
+				{"trigger": "ColorSwatchData.CopyFrom()", "contents" : "CopyFrom()"},
+				{"trigger": "ColorSwatchData.GetGroupCount()", "contents" : "GetGroupCount()"},
+				{"trigger": "ColorSwatchData.GetGroupAtIndex(index)", "contents" : "GetGroupAtIndex(${1:index})"},
+				{"trigger": "ColorSwatchData.SetGroupAtIndex(index, group)", "contents" : "SetGroupAtIndex(${1:index}, ${2:group})"},
+				{"trigger": "ColorSwatchData.AddGroup([name=\"\", selected=False, insertAt=-1, colors=None])", "contents" : "AddGroup( ${1:[name=\"\", selected=2:False, insertAt=-3:1, colors=None]})"},
+				{"trigger": "ColorSwatchData.InsertGroup(group[, insertAt=-1])", "contents" : "InsertGroup(${1:group} ${2:[, insertAt=-1]})"},
+				{"trigger": "ColorSwatchData.RemoveGroup(index)", "contents" : "RemoveGroup(${1:index})"},
+				{"trigger": "ColorSwatchData.RemoveSelectedItems()", "contents" : "RemoveSelectedItems()"},
+				{"trigger": "ColorSwatchData.Reset()", "contents" : "Reset()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

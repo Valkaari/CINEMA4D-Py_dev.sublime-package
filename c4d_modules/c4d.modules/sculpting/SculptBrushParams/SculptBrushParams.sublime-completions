@@ -1,0 +1,26 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.sculpting.SculptBrushParams", "contents" : "SculptBrushParams"},
+				{"trigger": "SculptBrushParams.EnableStencil(enable)", "contents" : "EnableStencil(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableStamp(enable)", "contents" : "EnableStamp(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableInvertCheckbox(enable)", "contents" : "EnableInvertCheckbox(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableBuildup(enable)", "contents" : "EnableBuildup(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableNonModelPickMode(enable)", "contents" : "EnableNonModelPickMode(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableFlood(enable)", "contents" : "EnableFlood(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableToolSpecificSmooth(enable)", "contents" : "EnableToolSpecificSmooth(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableModifier(enable)", "contents" : "EnableModifier(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableDrawDirection(enable)", "contents" : "EnableDrawDirection(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableRespectSelections(enable)", "contents" : "EnableRespectSelections(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableFillToolIsolatedPointRemover(enable)", "contents" : "EnableFillToolIsolatedPointRemover(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnablePressureHUD(enable)", "contents" : "EnablePressureHUD(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableBackfaceSculpting(enable)", "contents" : "EnableBackfaceSculpting(${1:enable})"},
+				{"trigger": "SculptBrushParams.EnableMouseData(enable)", "contents" : "EnableMouseData(${1:enable})"},
+				{"trigger": "SculptBrushParams.SetFloodType(type)", "contents" : "SetFloodType(${1:type})"},
+				{"trigger": "SculptBrushParams.SetBrushMode(mode)", "contents" : "SetBrushMode(${1:mode})"},
+				{"trigger": "SculptBrushParams.SetFirstHitPointType(type)", "contents" : "SetFirstHitPointType(${1:type})"},
+				{"trigger": "SculptBrushParams.SetUndoType(type)", "contents" : "SetUndoType(${1:type})"},
+				{"trigger": "SculptBrushParams.SetPolygonObjectDirtyFlags(type)", "contents" : "SetPolygonObjectDirtyFlags(${1:type})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

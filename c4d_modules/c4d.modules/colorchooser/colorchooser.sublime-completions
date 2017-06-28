@@ -1,0 +1,27 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.colorchooser.ColorRGBToString(color)", "contents" : "ColorRGBToString(${1:color})"},
+				{"trigger": "c4d.modules.colorchooser.ColorHSVToString(color)", "contents" : "ColorHSVToString(${1:color})"},
+				{"trigger": "c4d.modules.colorchooser.ColorComponentFloatTo8Bit(colorComponentInput)", "contents" : "ColorComponentFloatTo8Bit(${1:colorComponentInput})"},
+				{"trigger": "c4d.modules.colorchooser.ColorComponent8BitToFloat(colorComponentInput)", "contents" : "ColorComponent8BitToFloat(${1:colorComponentInput})"},
+				{"trigger": "c4d.modules.colorchooser.ColorFloatTo8Bit(floatColor)", "contents" : "ColorFloatTo8Bit(${1:floatColor})"},
+				{"trigger": "c4d.modules.colorchooser.Color8BitToFloat(red, green, blue)", "contents" : "Color8BitToFloat(${1:red}, ${2:green}, ${3:blue})"},
+				{"trigger": "c4d.modules.colorchooser.ColorComponentFloatTo16Bit(colorComponentInput)", "contents" : "ColorComponentFloatTo16Bit(${1:colorComponentInput})"},
+				{"trigger": "c4d.modules.colorchooser.ColorComponent16BitToFloat(colorComponentInput)", "contents" : "ColorComponent16BitToFloat(${1:colorComponentInput})"},
+				{"trigger": "c4d.modules.colorchooser.ColorFloatTo16Bit(floatColor)", "contents" : "ColorFloatTo16Bit(${1:floatColor})"},
+				{"trigger": "c4d.modules.colorchooser.Color16BitToFloat()", "contents" : "Color16BitToFloat()"},
+				{"trigger": "c4d.modules.colorchooser.ColorKelvinTemperatureToRGB(kelvinDegree[, tint=0.0])", "contents" : "0])"},
+				{"trigger": "c4d.modules.colorchooser.ColorHarmonyGetComplementary(color, ryb)", "contents" : "ColorHarmonyGetComplementary(${1:color}, ${2:ryb})"},
+				{"trigger": "c4d.modules.colorchooser.ColorHarmonyGetSplitComplementary(color, ryb)", "contents" : "ColorHarmonyGetSplitComplementary(${1:color}, ${2:ryb})"},
+				{"trigger": "c4d.modules.colorchooser.ColorHarmonyGetTetradic(color, ryb)", "contents" : "ColorHarmonyGetTetradic(${1:color}, ${2:ryb})"},
+				{"trigger": "c4d.modules.colorchooser.ColorHarmonyGetAnalogous(color, colorCount, ryb)", "contents" : "ColorHarmonyGetAnalogous(${1:color}, ${2:colorCount}, ${3:ryb})"},
+				{"trigger": "c4d.modules.colorchooser.ColorHarmonyGetEquiangular(color, colorCount, ryb)", "contents" : "ColorHarmonyGetEquiangular(${1:color}, ${2:colorCount}, ${3:ryb})"},
+				{"trigger": "c4d.modules.colorchooser.ColorHarmonyRotateColor(color, colorCount, angle, ryb)", "contents" : "ColorHarmonyRotateColor(${1:color}, ${2:colorCount}, ${3:angle}, ${4:ryb})"},
+				{"trigger": "c4d.modules.colorchooser.ColorHarmonyInterpolateColors(color1, color2, colorCount, ryb)", "contents" : "ColorHarmonyInterpolateColors(${1:color1}, ${2:color2}, ${3:colorCount}, ${4:ryb})"},
+				{"trigger": "c4d.modules.colorchooser.ColorSwatchPresetExists(name[, urls=None])", "contents" : "ColorSwatchPresetExists(${1:name} ${2:[, urls=None]})"},
+				{"trigger": "c4d.modules.colorchooser.ValidColorSwatchPreset(url)", "contents" : "ValidColorSwatchPreset(${1:url})"},
+				{"trigger": "c4d.modules.colorchooser.GetColorSwatchPresetDirectory()", "contents" : "GetColorSwatchPresetDirectory()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

@@ -1,0 +1,22 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.character.CAPoseMorphTag", "contents" : "CAPoseMorphTag"},
+				{"trigger": "CAPoseMorphTag.__init__()", "contents" : "__init__()"},
+				{"trigger": "CAPoseMorphTag.AddMorph()", "contents" : "AddMorph()"},
+				{"trigger": "CAPoseMorphTag.GetMorphBase()", "contents" : "GetMorphBase()"},
+				{"trigger": "CAPoseMorphTag.GetMorphIndex(morph)", "contents" : "GetMorphIndex(${1:morph})"},
+				{"trigger": "CAPoseMorphTag.GetMorphCount()", "contents" : "GetMorphCount()"},
+				{"trigger": "CAPoseMorphTag.GetMorphID(index)", "contents" : "GetMorphID(${1:index})"},
+				{"trigger": "CAPoseMorphTag.GetMorph(index)", "contents" : "GetMorph(${1:index})"},
+				{"trigger": "CAPoseMorphTag.GetActiveMorph()", "contents" : "GetActiveMorph()"},
+				{"trigger": "CAPoseMorphTag.RemoveMorph(index)", "contents" : "RemoveMorph(${1:index})"},
+				{"trigger": "CAPoseMorphTag.GetActiveMorphIndex()", "contents" : "GetActiveMorphIndex()"},
+				{"trigger": "CAPoseMorphTag.SetActiveMorphIndex(index)", "contents" : "SetActiveMorphIndex(${1:index})"},
+				{"trigger": "CAPoseMorphTag.GetMode()", "contents" : "GetMode()"},
+				{"trigger": "CAPoseMorphTag.InitMorphs()", "contents" : "InitMorphs()"},
+				{"trigger": "CAPoseMorphTag.UpdateMorphs()", "contents" : "UpdateMorphs()"},
+				{"trigger": "CAPoseMorphTag.ExitEdit(doc, apply)", "contents" : "ExitEdit(${1:doc}, ${2:apply})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

@@ -1,0 +1,21 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.DescID", "contents" : "DescID"},
+				{"trigger": "DescID.__init__([id1[, id2, id3]])", "contents" : "__init__( ${1:[2:id1[, 3:id2, id3]}])"},
+				{"trigger": "DescID.__str__()", "contents" : "__str__()"},
+				{"trigger": "DescID.__lshift__(self, other)", "contents" : "__lshift__(${1:self}, ${2:other})"},
+				{"trigger": "DescID.__getitem__(self, key)", "contents" : "__getitem__(${1:self}, ${2:key})"},
+				{"trigger": "DescID.__eq__(self, other)", "contents" : "__eq__(${1:self}, ${2:other})"},
+				{"trigger": "DescID.__ne__(self, other)", "contents" : "__ne__(${1:self}, ${2:other})"},
+				{"trigger": "DescID.SetId(subid)", "contents" : "SetId(${1:subid})"},
+				{"trigger": "DescID.PushId(subid)", "contents" : "PushId(${1:subid})"},
+				{"trigger": "DescID.PopId()", "contents" : "PopId()"},
+				{"trigger": "DescID.GetDepth()", "contents" : "GetDepth()"},
+				{"trigger": "DescID.Write(hf)", "contents" : "Write(${1:hf})"},
+				{"trigger": "DescID.Read(hf)", "contents" : "Read(${1:hf})"},
+				{"trigger": "DescID.GetHashCode()", "contents" : "GetHashCode()"},
+				{"trigger": "DescID.IsPartOf(cmp)", "contents" : "IsPartOf(${1:cmp})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

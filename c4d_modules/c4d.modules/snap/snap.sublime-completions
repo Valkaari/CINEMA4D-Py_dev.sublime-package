@@ -1,0 +1,17 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.snap.IsSnapEnabled(doc[, snapmode])", "contents" : "IsSnapEnabled(${1:doc} ${2:[, snapmode]})"},
+				{"trigger": "c4d.modules.snap.EnableSnap(state, doc[, snapmode])", "contents" : "EnableSnap(${1:state}, ${2:doc} ${3:[, snapmode]})"},
+				{"trigger": "c4d.modules.snap.GetSnapSettings(doc[, snapmode])", "contents" : "GetSnapSettings(${1:doc} ${2:[, snapmode]})"},
+				{"trigger": "c4d.modules.snap.SetSnapSettings(doc, bc[, snapmode])", "contents" : "SetSnapSettings(${1:doc}, ${2:bc} ${3:[, snapmode]})"},
+				{"trigger": "c4d.modules.snap.IsQuantizeEnabled(doc)", "contents" : "IsQuantizeEnabled(${1:doc})"},
+				{"trigger": "c4d.modules.snap.GetQuantizeStep(doc, bd, quantize_mode)", "contents" : "GetQuantizeStep(${1:doc}, ${2:bd}, ${3:quantize_mode})"},
+				{"trigger": "c4d.modules.snap.SetQuantizeStep(doc, bd, quantize_mode, val)", "contents" : "SetQuantizeStep(${1:doc}, ${2:bd}, ${3:quantize_mode}, ${4:val})"},
+				{"trigger": "c4d.modules.snap.GetWorkplaneObject(doc)", "contents" : "GetWorkplaneObject(${1:doc})"},
+				{"trigger": "c4d.modules.snap.IsWorkplaneLock(doc)", "contents" : "IsWorkplaneLock(${1:doc})"},
+				{"trigger": "c4d.modules.snap.SetWorkplaneLock(bd, locked)", "contents" : "SetWorkplaneLock(${1:bd}, ${2:locked})"},
+				{"trigger": "c4d.modules.snap.GetWorkplaneMatrix(doc, bd)", "contents" : "GetWorkplaneMatrix(${1:doc}, ${2:bd})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

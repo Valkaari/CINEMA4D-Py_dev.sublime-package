@@ -1,0 +1,7 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.particles.CalcParticleMatrix(cp)", "contents" : "CalcParticleMatrix(${1:cp})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

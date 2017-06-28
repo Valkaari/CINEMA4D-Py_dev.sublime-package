@@ -1,0 +1,11 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.UVWTag", "contents" : "UVWTag"},
+				{"trigger": "UVWTag.__init__(count)", "contents" : "__init__(${1:count})"},
+				{"trigger": "UVWTag.GetSlow(i)", "contents" : "GetSlow(${1:i})"},
+				{"trigger": "UVWTag.SetSlow(i, a, b, c, d)", "contents" : "SetSlow(${1:i}, ${2:a}, ${3:b}, ${4:c}, ${5:d})"},
+				{"trigger": "UVWTag.CpySlow(i, srctag, src)", "contents" : "CpySlow(${1:i}, ${2:srctag}, ${3:src})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

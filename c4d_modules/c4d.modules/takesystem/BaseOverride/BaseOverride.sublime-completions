@@ -1,0 +1,13 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.takesystem.BaseOverride", "contents" : "BaseOverride"},
+				{"trigger": "BaseOverride.IsOverriddenParam(descID)", "contents" : "IsOverriddenParam(${1:descID})"},
+				{"trigger": "BaseOverride.GetSceneNode()", "contents" : "GetSceneNode()"},
+				{"trigger": "BaseOverride.GetOwnerTake(takeData)", "contents" : "GetOwnerTake(${1:takeData})"},
+				{"trigger": "BaseOverride.IsInGroup()", "contents" : "IsInGroup()"},
+				{"trigger": "BaseOverride.GetAllOverrideDescID()", "contents" : "GetAllOverrideDescID()"},
+				{"trigger": "BaseOverride.UpdateSceneNode(takeData, descID)", "contents" : "UpdateSceneNode(${1:takeData}, ${2:descID})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

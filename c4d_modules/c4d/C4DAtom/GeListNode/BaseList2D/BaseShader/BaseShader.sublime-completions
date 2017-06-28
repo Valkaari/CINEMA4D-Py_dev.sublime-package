@@ -1,0 +1,16 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.BaseShader", "contents" : "BaseShader"},
+				{"trigger": "BaseShader.__init__(type)", "contents" : "__init__(${1:type})"},
+				{"trigger": "BaseShader.Sample(cd)", "contents" : "Sample(${1:cd})"},
+				{"trigger": "BaseShader.SampleBump(cd, bumpflags)", "contents" : "SampleBump(${1:cd}, ${2:bumpflags})"},
+				{"trigger": "BaseShader.GetBitmap()", "contents" : "GetBitmap()"},
+				{"trigger": "BaseShader.GetRenderInfo()", "contents" : "GetRenderInfo()"},
+				{"trigger": "BaseShader.InitRender(is)", "contents" : "InitRender(${1:is})"},
+				{"trigger": "BaseShader.FreeRender()", "contents" : "FreeRender()"},
+				{"trigger": "BaseShader.IsColorManagementOff(doc)", "contents" : "IsColorManagementOff(${1:doc})"},
+				{"trigger": "BaseShader.Compare(dst)", "contents" : "Compare(${1:dst})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

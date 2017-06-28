@@ -1,0 +1,18 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.storage.ByteSeq", "contents" : "ByteSeq"},
+				{"trigger": "ByteSeq.__init__(buf, len[, readonly=False])", "contents" : "__init__(${1:buf}, ${2:len} ${3:[, readonly=False]})"},
+				{"trigger": "ByteSeq.__str__()", "contents" : "__str__()"},
+				{"trigger": "ByteSeq.__add__(other)", "contents" : "__add__(${1:other})"},
+				{"trigger": "ByteSeq.__compare__(other)", "contents" : "__compare__(${1:other})"},
+				{"trigger": "ByteSeq.__iter__()", "contents" : "__iter__()"},
+				{"trigger": "ByteSeq.__hash__()", "contents" : "__hash__()"},
+				{"trigger": "ByteSeq.__len__()", "contents" : "__len__()"},
+				{"trigger": "ByteSeq.__setitem__(key, value)", "contents" : "__setitem__(${1:key}, ${2:value})"},
+				{"trigger": "ByteSeq.__getitem__(key)", "contents" : "__getitem__(${1:key})"},
+				{"trigger": "ByteSeq.GetClone()", "contents" : "GetClone()"},
+				{"trigger": "ByteSeq.GetOffset(o)", "contents" : "GetOffset(${1:o})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

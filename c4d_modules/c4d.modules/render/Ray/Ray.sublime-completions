@@ -1,0 +1,13 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.render.Ray", "contents" : "Ray"},
+				{"trigger": "Ray.p", "contents" : "p"},
+				{"trigger": "Ray.v", "contents" : "v"},
+				{"trigger": "Ray.ior", "contents" : "ior"},
+				{"trigger": "Ray.pp", "contents" : "pp"},
+				{"trigger": "Ray.vv", "contents" : "vv"},
+				{"trigger": "Ray.transport", "contents" : "transport"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

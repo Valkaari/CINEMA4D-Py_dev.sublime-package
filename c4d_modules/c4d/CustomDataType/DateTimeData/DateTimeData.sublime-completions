@@ -1,0 +1,10 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.DateTimeData", "contents" : "DateTimeData"},
+				{"trigger": "DateTimeData.__init__([v])", "contents" : "__init__( ${1:[v]})"},
+				{"trigger": "DateTimeData.GetDateTime()", "contents" : "GetDateTime()"},
+				{"trigger": "DateTimeData.SetDateTime(d[, bSetData=True][, bSetTime=True])", "contents" : "SetDateTime(${1:d} ${2:[, bSetData=True]} ${3:[, bSetTime=True]})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

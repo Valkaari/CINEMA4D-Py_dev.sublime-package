@@ -1,0 +1,11 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.BitmapButtonStruct", "contents" : "BitmapButtonStruct"},
+				{"trigger": "BitmapButtonStruct.__init__(op, id, dirty)", "contents" : "__init__(${1:op}, ${2:id}, ${3:dirty})"},
+				{"trigger": "LensGlowStruct.op", "contents" : "op"},
+				{"trigger": "LensGlowStruct.id", "contents" : "id"},
+				{"trigger": "LensGlowStruct.dirty", "contents" : "dirty"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

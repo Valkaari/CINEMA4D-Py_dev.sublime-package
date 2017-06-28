@@ -1,0 +1,14 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.tokensystem.StringConvertTokens(path, rpData)", "contents" : "StringConvertTokens(${1:path}, ${2:rpData})"},
+				{"trigger": "c4d.modules.tokensystem.FilenameConvertTokens(path, rpData)", "contents" : "FilenameConvertTokens(${1:path}, ${2:rpData})"},
+				{"trigger": "c4d.modules.tokensystem.StringConvertTokensFilter(path, rpData, exclude)", "contents" : "StringConvertTokensFilter(${1:path}, ${2:rpData}, ${3:exclude})"},
+				{"trigger": "c4d.modules.tokensystem.FilenameConvertTokensFilter(path, rpData, exclude)", "contents" : "FilenameConvertTokensFilter(${1:path}, ${2:rpData}, ${3:exclude})"},
+				{"trigger": "c4d.modules.tokensystem.StringExtractRoot(path)", "contents" : "StringExtractRoot(${1:path})"},
+				{"trigger": "c4d.modules.tokensystem.FilenameExtractRoot(path)", "contents" : "FilenameExtractRoot(${1:path})"},
+				{"trigger": "c4d.modules.tokensystem.FilenameSlicePath(path)", "contents" : "FilenameSlicePath(${1:path})"},
+				{"trigger": "c4d.modules.tokensystem.GetAllTokenEntries()", "contents" : "GetAllTokenEntries()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

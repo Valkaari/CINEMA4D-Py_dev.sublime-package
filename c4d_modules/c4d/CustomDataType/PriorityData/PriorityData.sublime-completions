@@ -1,0 +1,10 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.PriorityData", "contents" : "PriorityData"},
+				{"trigger": "PriorityData.__init__([v])", "contents" : "__init__( ${1:[v]})"},
+				{"trigger": "PriorityData.SetPriorityValue(lValueID, data)", "contents" : "SetPriorityValue(${1:lValueID}, ${2:data})"},
+				{"trigger": "PriorityData.GetPriorityValue(lValueID)", "contents" : "GetPriorityValue(${1:lValueID})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

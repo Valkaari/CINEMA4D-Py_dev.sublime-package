@@ -1,0 +1,20 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.substance.ImportSubstance(doc, fn, copyFile, errPopup, addUndo, createMaterial)", "contents" : "ImportSubstance(${1:doc}, ${2:fn}, ${3:copyFile}, ${4:errPopup}, ${5:addUndo}, ${6:createMaterial})"},
+				{"trigger": "c4d.modules.substance.CreateMaterial(asset, graphIndex, mode)", "contents" : "CreateMaterial(${1:asset}, ${2:graphIndex}, ${3:mode})"},
+				{"trigger": "c4d.modules.substance.CreateSubstanceShader(asset)", "contents" : "CreateSubstanceShader(${1:asset})"},
+				{"trigger": "c4d.modules.substance.AssignChannelToMaterial(asset, mat, channelId, outputUid, addUndo)", "contents" : "AssignChannelToMaterial(${1:asset}, ${2:mat}, ${3:channelId}, ${4:outputUid}, ${5:addUndo})"},
+				{"trigger": "c4d.modules.substance.GetFirstSubstance(doc)", "contents" : "GetFirstSubstance(${1:doc})"},
+				{"trigger": "c4d.modules.substance.GetSubstances(doc, onlySelected)", "contents" : "GetSubstances(${1:doc}, ${2:onlySelected})"},
+				{"trigger": "c4d.modules.substance.InsertLastSubstance(doc, asset)", "contents" : "InsertLastSubstance(${1:doc}, ${2:asset})"},
+				{"trigger": "c4d.modules.substance.GetSubstanceGraph(asset[, prevGraph=None])", "contents" : "GetSubstanceGraph(${1:asset} ${2:[, prevGraph=None]})"},
+				{"trigger": "c4d.modules.substance.GetSubstanceInput(asset, graph[, prevInput=None])", "contents" : "GetSubstanceInput(${1:asset}, ${2:graph} ${3:[, prevInput=None]})"},
+				{"trigger": "c4d.modules.substance.GetSubstanceOutput(asset, graph, getBitmap[, prevOutput=None])", "contents" : "GetSubstanceOutput(${1:asset}, ${2:graph}, ${3:getBitmap} ${4:[, prevOutput=None]})"},
+				{"trigger": "c4d.modules.substance.PrefsGetMaterialModeSetting()", "contents" : "PrefsGetMaterialModeSetting()"},
+				{"trigger": "c4d.modules.substance.PrefsGetPreviewSetting()", "contents" : "PrefsGetPreviewSetting()"},
+				{"trigger": "c4d.modules.substance.MaterialUsesSubstance(mat)", "contents" : "MaterialUsesSubstance(${1:mat})"},
+				{"trigger": "c4d.modules.substance.GetSubstanceMosaicPreview(asset, w, h)", "contents" : "GetSubstanceMosaicPreview(${1:asset}, ${2:w}, ${3:h})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

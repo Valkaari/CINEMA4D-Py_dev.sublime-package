@@ -1,0 +1,20 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.LayerSet", "contents" : "LayerSet"},
+				{"trigger": "LayerSet.__init__([v])", "contents" : "__init__( ${1:[v]})"},
+				{"trigger": "LayerSet.Content()", "contents" : "Content()"},
+				{"trigger": "LayerSet.IsLayerEnabled(name)", "contents" : "IsLayerEnabled(${1:name})"},
+				{"trigger": "LayerSet.FindLayerSet(name)", "contents" : "FindLayerSet(${1:name})"},
+				{"trigger": "LayerSet.GetName()", "contents" : "GetName()"},
+				{"trigger": "LayerSet.GetMode()", "contents" : "GetMode()"},
+				{"trigger": "LayerSet.SetMode(mode)", "contents" : "SetMode(${1:mode})"},
+				{"trigger": "LayerSet.RemoveLayer(layer)", "contents" : "RemoveLayer(${1:layer})"},
+				{"trigger": "LayerSet.AddLayer(layer)", "contents" : "AddLayer(${1:layer})"},
+				{"trigger": "LayerSet.FlushLayers()", "contents" : "FlushLayers()"},
+				{"trigger": "LayerSet.GetPreviewMode()", "contents" : "GetPreviewMode()"},
+				{"trigger": "LayerSet.SetPreviewMode(s)", "contents" : "SetPreviewMode(${1:s})"},
+				{"trigger": "LayerSet.CopyTo(dst)", "contents" : "CopyTo(${1:dst})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

@@ -1,0 +1,13 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.ReflectionLayer", "contents" : "ReflectionLayer"},
+				{"trigger": "ReflectionLayer.GetLayerID()", "contents" : "GetLayerID()"},
+				{"trigger": "ReflectionLayer.GetDataID()", "contents" : "GetDataID()"},
+				{"trigger": "ReflectionLayer.GetName()", "contents" : "GetName()"},
+				{"trigger": "ReflectionLayer.SetName(name)", "contents" : "SetName(${1:name})"},
+				{"trigger": "ReflectionLayer.GetFlags()", "contents" : "GetFlags()"},
+				{"trigger": "ReflectionLayer.SetFlags(flags)", "contents" : "SetFlags(${1:flags})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

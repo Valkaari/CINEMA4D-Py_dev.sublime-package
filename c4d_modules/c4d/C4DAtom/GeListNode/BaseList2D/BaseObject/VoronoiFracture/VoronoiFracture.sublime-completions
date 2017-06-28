@@ -1,0 +1,15 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.VoronoiFracture", "contents" : "VoronoiFracture"},
+				{"trigger": "VoronoiFracture.__init__()", "contents" : "__init__()"},
+				{"trigger": "VoronoiFracture.GetSourcesCount()", "contents" : "GetSourcesCount()"},
+				{"trigger": "VoronoiFracture.GetSource(index)", "contents" : "GetSource(${1:index})"},
+				{"trigger": "VoronoiFracture.GetSourceByType(type[, startIndex=-1])", "contents" : "GetSourceByType(${1:type} ${2:[, startIndex=-1]})"},
+				{"trigger": "VoronoiFracture.RemoveSource(index)", "contents" : "RemoveSource(${1:index})"},
+				{"trigger": "VoronoiFracture.AddPointGenerator(type[, shaderType=-1)", "contents" : "AddPointGenerator(${1:type}[, shaderType=-${2:1})"},
+				{"trigger": "VoronoiFracture.AddSceneObject(object)", "contents" : "AddSceneObject(${1:object})"},
+				{"trigger": "VoronoiFracture.ClearSources()", "contents" : "ClearSources()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

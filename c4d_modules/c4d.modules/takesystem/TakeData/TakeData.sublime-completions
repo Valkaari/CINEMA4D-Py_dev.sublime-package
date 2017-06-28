@@ -1,0 +1,24 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.takesystem.TakeData", "contents" : "TakeData"},
+				{"trigger": "TakeData.GetDocument()", "contents" : "GetDocument()"},
+				{"trigger": "TakeData.GetMainTake()", "contents" : "GetMainTake()"},
+				{"trigger": "TakeData.GetTakeMode()", "contents" : "GetTakeMode()"},
+				{"trigger": "TakeData.GetOverrideEnabling()", "contents" : "GetOverrideEnabling()"},
+				{"trigger": "TakeData.CheckOverrideEnabling(mask)", "contents" : "CheckOverrideEnabling(${1:mask})"},
+				{"trigger": "TakeData.GetTakeSelection(children)", "contents" : "GetTakeSelection(${1:children})"},
+				{"trigger": "TakeData.GetCurrentTake()", "contents" : "GetCurrentTake()"},
+				{"trigger": "TakeData.SetCurrentTake(take)", "contents" : "SetCurrentTake(${1:take})"},
+				{"trigger": "TakeData.TakeToDocument()", "contents" : "TakeToDocument()"},
+				{"trigger": "TakeData.SaveTakesWithAssets(selected)", "contents" : "SaveTakesWithAssets(${1:selected})"},
+				{"trigger": "TakeData.AddTake(name, parent, cloneFrom)", "contents" : "AddTake(${1:name}, ${2:parent}, ${3:cloneFrom})"},
+				{"trigger": "TakeData.DeleteTake(take)", "contents" : "DeleteTake(${1:take})"},
+				{"trigger": "TakeData.InsertTake(takeToMove, destTake, insertMode)", "contents" : "InsertTake(${1:takeToMove}, ${2:destTake}, ${3:insertMode})"},
+				{"trigger": "TakeData.FindOverrideCounterPart(overrideNode, descID)", "contents" : "FindOverrideCounterPart(${1:overrideNode}, ${2:descID})"},
+				{"trigger": "TakeData.GetUndoState()", "contents" : "GetUndoState()"},
+				{"trigger": "TakeData.SetUndoState(state)", "contents" : "SetUndoState(${1:state})"},
+				{"trigger": "TakeData.ResetSystem()", "contents" : "ResetSystem()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

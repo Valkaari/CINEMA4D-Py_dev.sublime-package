@@ -1,0 +1,30 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.graphview.GvNode", "contents" : "GvNode"},
+				{"trigger": "GvNode.Redraw()", "contents" : "Redraw()"},
+				{"trigger": "GvNode.GetOperatorID()", "contents" : "GetOperatorID()"},
+				{"trigger": "GvNode.GetOwnerID()", "contents" : "GetOwnerID()"},
+				{"trigger": "GvNode.GetNodeMaster()", "contents" : "GetNodeMaster()"},
+				{"trigger": "GvNode.IsGroupNode()", "contents" : "IsGroupNode()"},
+				{"trigger": "GvNode.SetPortType(port, id)", "contents" : "SetPortType(${1:port}, ${2:id})"},
+				{"trigger": "GvNode.ResetPortType(id)", "contents" : "ResetPortType(${1:id})"},
+				{"trigger": "GvNode.RemoveUnusedPorts([message=True])", "contents" : "RemoveUnusedPorts( ${1:[message=True]})"},
+				{"trigger": "GvNode.RemoveConnections()", "contents" : "RemoveConnections()"},
+				{"trigger": "GvNode.RemovePort(port[, message=False])", "contents" : "RemovePort(${1:port} ${2:[, message=False]})"},
+				{"trigger": "GvNode.RemovePortIsOK(port)", "contents" : "RemovePortIsOK(${1:port})"},
+				{"trigger": "GvNode.GetPort(sub_id)", "contents" : "GetPort(${1:sub_id})"},
+				{"trigger": "GvNode.GetPortIndex(id)", "contents" : "GetPortIndex(${1:id})"},
+				{"trigger": "GvNode.GetOutPorts(type=-1)", "contents" : "GetOutPorts(type=-${1:1})"},
+				{"trigger": "GvNode.GetInPorts(type=-1)", "contents" : "GetInPorts(type=-${1:1})"},
+				{"trigger": "GvNode.GetInPort(id)", "contents" : "GetInPort(${1:id})"},
+				{"trigger": "GvNode.GetOutPort(id)", "contents" : "GetOutPort(${1:id})"},
+				{"trigger": "GvNode.GetInPortCount()", "contents" : "GetInPortCount()"},
+				{"trigger": "GvNode.GetOutPortCount()", "contents" : "GetOutPortCount()"},
+				{"trigger": "GvNode.SetOperatorContainer(bc)", "contents" : "SetOperatorContainer(${1:bc})"},
+				{"trigger": "GvNode.GetOperatorContainer()", "contents" : "GetOperatorContainer()"},
+				{"trigger": "GvNode.AddPort(io, id[, flag=GV_PORT_FLAG_IS_VISIBLE][, message=False])", "contents" : "AddPort(${1:io}, ${2:id} ${3:[, flag=GV_PORT_FLAG_IS_VISIBLE]} ${4:[, message=False]})"},
+				{"trigger": "GvNode.AddPortIsOK(io, id)", "contents" : "AddPortIsOK(${1:io}, ${2:id})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

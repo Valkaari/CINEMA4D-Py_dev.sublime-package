@@ -1,0 +1,21 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.CCurve", "contents" : "CCurve"},
+				{"trigger": "CCurve.GetKeyCount()", "contents" : "GetKeyCount()"},
+				{"trigger": "CCurve.GetKey(index)", "contents" : "GetKey(${1:index})"},
+				{"trigger": "CCurve.FindKey(time[, match=FINDANIM_EXACT])", "contents" : "FindKey(${1:time} ${2:[, match=FINDANIM_EXACT]})"},
+				{"trigger": "CCurve.AddKey(time[, bUndo=False, SynchronizeKeys=False])", "contents" : "AddKey(${1:time} ${2:[, bUndo=3:False, SynchronizeKeys=False]})"},
+				{"trigger": "CCurve.AddKeyAdaptTangent(time, bUndo[, SynchronizeKeys=False])", "contents" : "AddKeyAdaptTangent(${1:time}, ${2:bUndo} ${3:[, SynchronizeKeys=False]})"},
+				{"trigger": "CCurve.InsertKey(ckey[, bUndo=False, SynchronizeKeys=False])", "contents" : "InsertKey(${1:ckey} ${2:[, bUndo=3:False, SynchronizeKeys=False]})"},
+				{"trigger": "CCurve.DelKey(index[, bUndo=False, SynchronizeKeys=False])", "contents" : "DelKey(${1:index} ${2:[, bUndo=3:False, SynchronizeKeys=False]})"},
+				{"trigger": "CCurve.MoveKey(time, idx[, seq=None, bUndo=False, SynchronizeKeys=False])", "contents" : "MoveKey(${1:time}, ${2:idx} ${3:[, seq=4:None, bUndo=5:False, SynchronizeKeys=False]})"},
+				{"trigger": "CCurve.FlushKeys([bUndo=False, SynchronizeKeys=False])", "contents" : "FlushKeys( ${1:[bUndo=2:False, SynchronizeKeys=False]})"},
+				{"trigger": "CCurve.SortKeysByTime()", "contents" : "SortKeysByTime()"},
+				{"trigger": "CCurve.SetKeyDirty()", "contents" : "SetKeyDirty()"},
+				{"trigger": "CCurve.GetTrack()", "contents" : "GetTrack()"},
+				{"trigger": "CCurve.GetValue(time[, fps])", "contents" : "GetValue(${1:time} ${2:[, fps]})"},
+				{"trigger": "CCurve.SetKeyDefault(doc, kidx)", "contents" : "SetKeyDefault(${1:doc}, ${2:kidx})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

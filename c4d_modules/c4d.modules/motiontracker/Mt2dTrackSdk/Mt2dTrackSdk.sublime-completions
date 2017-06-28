@@ -1,0 +1,13 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.motiontracker.Mt2dTrackSdk", "contents" : "Mt2dTrackSdk"},
+				{"trigger": "Mt2dTrackSdk.GetName()", "contents" : "GetName()"},
+				{"trigger": "Mt2dTrackSdk.GetId()", "contents" : "GetId()"},
+				{"trigger": "Mt2dTrackSdk.GetStatus()", "contents" : "GetStatus()"},
+				{"trigger": "Mt2dTrackSdk.GetFramesWithTrackData()", "contents" : "GetFramesWithTrackData()"},
+				{"trigger": "Mt2dTrackSdk.GetDataForFrame(frameNum)", "contents" : "GetDataForFrame(${1:frameNum})"},
+				{"trigger": "Mt2dTrackSdk.GetDataForCurrentFrame()", "contents" : "GetDataForCurrentFrame()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

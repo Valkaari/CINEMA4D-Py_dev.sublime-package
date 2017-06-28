@@ -1,0 +1,29 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.thinkingparticles.TP_PGroup", "contents" : "TP_PGroup"},
+				{"trigger": "TP_PGroup.GetLevel()", "contents" : "GetLevel()"},
+				{"trigger": "TP_PGroup.NumParticles()", "contents" : "NumParticles()"},
+				{"trigger": "TP_PGroup.IsSubGroup(group)", "contents" : "IsSubGroup(${1:group})"},
+				{"trigger": "TP_PGroup.GetGroupID()", "contents" : "GetGroupID()"},
+				{"trigger": "TP_PGroup.GetParticles()", "contents" : "GetParticles()"},
+				{"trigger": "TP_PGroup.SetTitle(title)", "contents" : "SetTitle(${1:title})"},
+				{"trigger": "TP_PGroup.GetTitle()", "contents" : "GetTitle()"},
+				{"trigger": "TP_PGroup.SetViewType(type)", "contents" : "SetViewType(${1:type})"},
+				{"trigger": "TP_PGroup.GetViewType()", "contents" : "GetViewType()"},
+				{"trigger": "TP_PGroup.SetShowObjects()", "contents" : "SetShowObjects()"},
+				{"trigger": "TP_PGroup.GetShowObjects()", "contents" : "GetShowObjects()"},
+				{"trigger": "TP_PGroup.SetColor()", "contents" : "SetColor()"},
+				{"trigger": "TP_PGroup.GetColor()", "contents" : "GetColor()"},
+				{"trigger": "TP_PGroup.EditSettings()", "contents" : "EditSettings()"},
+				{"trigger": "TP_PGroup.IsSelected()", "contents" : "IsSelected()"},
+				{"trigger": "TP_PGroup.IsOpened()", "contents" : "IsOpened()"},
+				{"trigger": "TP_PGroup.Select(mode)", "contents" : "Select(${1:mode})"},
+				{"trigger": "TP_PGroup.Open(onoff)", "contents" : "Open(${1:onoff})"},
+				{"trigger": "TP_PGroup.SetUseColor(use)", "contents" : "SetUseColor(${1:use})"},
+				{"trigger": "TP_PGroup.GetUseColor()", "contents" : "GetUseColor()"},
+				{"trigger": "TP_PGroup.Cache(onoff)", "contents" : "Cache(${1:onoff})"},
+				{"trigger": "TP_PGroup.IsCache()", "contents" : "IsCache()"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

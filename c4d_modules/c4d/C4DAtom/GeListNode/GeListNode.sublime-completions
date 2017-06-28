@@ -1,0 +1,25 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.GeListNode", "contents" : "GeListNode"},
+				{"trigger": "GeListNode.__setitem__(self, key, value)", "contents" : "__setitem__(${1:self}, ${2:key}, ${3:value})"},
+				{"trigger": "GeListNode.__getitem__(self, key)", "contents" : "__getitem__(${1:self}, ${2:key})"},
+				{"trigger": "GeListNode.InsertBefore(obj)", "contents" : "InsertBefore(${1:obj})"},
+				{"trigger": "GeListNode.InsertAfter(obj)", "contents" : "InsertAfter(${1:obj})"},
+				{"trigger": "GeListNode.InsertUnder(obj)", "contents" : "InsertUnder(${1:obj})"},
+				{"trigger": "GeListNode.InsertUnderLast(obj)", "contents" : "InsertUnderLast(${1:obj})"},
+				{"trigger": "GeListNode.GetNext()", "contents" : "GetNext()"},
+				{"trigger": "GeListNode.GetPred()", "contents" : "GetPred()"},
+				{"trigger": "GeListNode.GetUp()", "contents" : "GetUp()"},
+				{"trigger": "GeListNode.GetDown()", "contents" : "GetDown()"},
+				{"trigger": "GeListNode.GetDownLast()", "contents" : "GetDownLast()"},
+				{"trigger": "GeListNode.GetChildren()", "contents" : "GetChildren()"},
+				{"trigger": "GeListNode.Remove()", "contents" : "Remove()"},
+				{"trigger": "GeListNode.GetDocument()", "contents" : "GetDocument()"},
+				{"trigger": "GeListNode.GetListHead()", "contents" : "GetListHead()"},
+				{"trigger": "GeListNode.IsDocumentRelated()", "contents" : "IsDocumentRelated()"},
+				{"trigger": "GeListNode.GetNBit(bit)", "contents" : "GetNBit(${1:bit})"},
+				{"trigger": "GeListNode.ChangeNBit(bit, bitmode)", "contents" : "ChangeNBit(${1:bit}, ${2:bitmode})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

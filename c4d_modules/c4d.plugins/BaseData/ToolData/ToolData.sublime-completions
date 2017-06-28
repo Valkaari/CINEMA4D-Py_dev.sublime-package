@@ -1,0 +1,22 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.plugins.ToolData", "contents" : "ToolData"},
+				{"trigger": "ToolData.InitTool(self, doc, data, bt)", "contents" : "InitTool(${1:self}, ${2:doc}, ${3:data}, ${4:bt})"},
+				{"trigger": "ToolData.FreeTool(self, doc, data)", "contents" : "FreeTool(${1:self}, ${2:doc}, ${3:data})"},
+				{"trigger": "ToolData.InitDefaultSettings(self, doc, data)", "contents" : "InitDefaultSettings(${1:self}, ${2:doc}, ${3:data})"},
+				{"trigger": "ToolData.MouseInput(self, doc, data, bd, win, msg)", "contents" : "MouseInput(${1:self}, ${2:doc}, ${3:data}, ${4:bd}, ${5:win}, ${6:msg})"},
+				{"trigger": "ToolData.KeyboardInput(self, doc, data, bd, win, msg)", "contents" : "KeyboardInput(${1:self}, ${2:doc}, ${3:data}, ${4:bd}, ${5:win}, ${6:msg})"},
+				{"trigger": "ToolData.GetState(self, doc)", "contents" : "GetState(${1:self}, ${2:doc})"},
+				{"trigger": "ToolData.GetCursorInfo(self, doc, data, bd, x, y, bc)", "contents" : "GetCursorInfo(${1:self}, ${2:doc}, ${3:data}, ${4:bd}, ${5:x}, ${6:y}, ${7:bc})"},
+				{"trigger": "ToolData.Draw(self, doc, data, bd, bh, bt, flags)", "contents" : "Draw(${1:self}, ${2:doc}, ${3:data}, ${4:bd}, ${5:bh}, ${6:bt}, ${7:flags})"},
+				{"trigger": "ToolData.AllocSubDialog(self, bc)", "contents" : "AllocSubDialog(${1:self}, ${2:bc})"},
+				{"trigger": "ToolData.Message(self, doc, data, type, t_data)", "contents" : "Message(${1:self}, ${2:doc}, ${3:data}, ${4:type}, ${5:t_data})"},
+				{"trigger": "ToolData.GetDDescription(self, doc, data, description, flags)", "contents" : "GetDDescription(${1:self}, ${2:doc}, ${3:data}, ${4:description}, ${5:flags})"},
+				{"trigger": "ToolData.GetDParameter(self, doc, data, id, flags)", "contents" : "GetDParameter(${1:self}, ${2:doc}, ${3:data}, ${4:id}, ${5:flags})"},
+				{"trigger": "ToolData.SetDParameter(self, doc, data, id, t_data, flags)", "contents" : "SetDParameter(${1:self}, ${2:doc}, ${3:data}, ${4:id}, ${5:t_data}, ${6:flags})"},
+				{"trigger": "ToolData.GetDEnabling(self, doc, data, id, t_data, flags, itemdesc)", "contents" : "GetDEnabling(${1:self}, ${2:doc}, ${3:data}, ${4:id}, ${5:t_data}, ${6:flags}, ${7:itemdesc})"},
+				{"trigger": "ToolData.TranslateDescID(self, doc, data, id)", "contents" : "TranslateDescID(${1:self}, ${2:doc}, ${3:data}, ${4:id})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}

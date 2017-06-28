@@ -1,0 +1,20 @@
+{
+		"scope" : "source.pythonAPI.cinema4D",
+		"completions" : [
+ 				{"trigger": "c4d.modules.bodypaint.TempUVHandle", "contents" : "TempUVHandle"},
+				{"trigger": "TempUVHandle.GetMode()", "contents" : "GetMode()"},
+				{"trigger": "TempUVHandle.GetPoints()", "contents" : "GetPoints()"},
+				{"trigger": "TempUVHandle.GetPolys()", "contents" : "GetPolys()"},
+				{"trigger": "TempUVHandle.GetPolySel()", "contents" : "GetPolySel()"},
+				{"trigger": "TempUVHandle.GetPolyHid()", "contents" : "GetPolyHid()"},
+				{"trigger": "TempUVHandle.GetUVPointSel()", "contents" : "GetUVPointSel()"},
+				{"trigger": "TempUVHandle.GetPointCount()", "contents" : "GetPointCount()"},
+				{"trigger": "TempUVHandle.GetPolyCount()", "contents" : "GetPolyCount()"},
+				{"trigger": "TempUVHandle.GetBaseObject()", "contents" : "GetBaseObject()"},
+				{"trigger": "TempUVHandle.IsEditable()", "contents" : "IsEditable()"},
+				{"trigger": "TempUVHandle.GetUVW()", "contents" : "GetUVW()"},
+				{"trigger": "TempUVHandle.SetUVW(uvw)", "contents" : "SetUVW(${1:uvw})"},
+				{"trigger": "TempUVHandle.SetUVWFromTextureView(uvw, ignoreHidden, ignoreUnselected, autoSelectAll, registerUndo)", "contents" : "SetUVWFromTextureView(${1:uvw}, ${2:ignoreHidden}, ${3:ignoreUnselected}, ${4:autoSelectAll}, ${5:registerUndo})"},
+  				{ "trigger": "____zdummy", "contents": "_____zdummy" } 
+		]
+}
