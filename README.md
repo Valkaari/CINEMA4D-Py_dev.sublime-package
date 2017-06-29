@@ -12,3 +12,7 @@ Once the syntaxe selected start typing "cinema" to use basic templates.
 
 
 Updated to R18 documentation.
+
+- Sublime text 2 could crash 
+
+- have some issue with some highlights
